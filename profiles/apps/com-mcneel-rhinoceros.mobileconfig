@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Rhinoceros 3D</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>SUFeedURL</key>
+			<string></string>
+			<key>SUEnableAutomaticChecks</key>
+			<true/>
+			<key>SUScheduledCheckInterval</key>
+			<integer>86400</integer>
+			<key>SUAllowsAutomaticUpdates</key>
+			<true/>
+			<key>SUAutomaticallyUpdate</key>
+			<false/>
+			<key>SUSkippedVersion</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.mcneel.rhinoceros</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.rhinoceros.payload</string>
+			<key>PayloadUUID</key>
+			<string>3EE91711-E3BE-5AE1-A9F1-CD06A77E8398</string>
+			<key>PayloadDisplayName</key>
+			<string>Rhinoceros</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>A1C1B67F-7637-5E01-B824-B28EAF95612A</string>
+	<key>PayloadDisplayName</key>
+	<string>Rhinoceros</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.rhinoceros</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

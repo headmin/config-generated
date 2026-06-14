@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Remotely and immediately restart a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>RebuildKernelCache</key>
+			<string>false</string>
+			<key>KextPaths</key>
+			<string></string>
+			<key>NotifyUser</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>RestartDevice</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.RestartDevice.payload</string>
+			<key>PayloadUUID</key>
+			<string>D2978E6A-7CB4-54BC-A85C-5F8EDEB2540F</string>
+			<key>PayloadDisplayName</key>
+			<string>Restart Device Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>292AF58D-23F9-50CF-BD8A-6072ED1D5B94</string>
+	<key>PayloadDisplayName</key>
+	<string>Restart Device Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.RestartDevice</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

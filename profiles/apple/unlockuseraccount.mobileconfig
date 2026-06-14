@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Unlock a user account that the system locked because of too many failed password attempts.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>UserName</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>UnlockUserAccount</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.UnlockUserAccount.payload</string>
+			<key>PayloadUUID</key>
+			<string>756F8195-520B-516F-8B49-C5B18EAE3DC0</string>
+			<key>PayloadDisplayName</key>
+			<string>Unlock User Account Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>96D40C42-88B3-546D-89AA-C820F9B0FEE0</string>
+	<key>PayloadDisplayName</key>
+	<string>Unlock User Account Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.UnlockUserAccount</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

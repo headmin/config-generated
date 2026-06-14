@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures security preferences.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>dontAllowPasswordResetUI</key>
+			<false/>
+			<key>dontAllowLockMessageUI</key>
+			<false/>
+			<key>dontAllowFireWallUI</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.preference.security</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.security.payload</string>
+			<key>PayloadUUID</key>
+			<string>92899567-C094-52EF-A490-D2823C12732D</string>
+			<key>PayloadDisplayName</key>
+			<string>Security Preferences</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>9506719D-4F08-58D8-AD7A-A96430F47198</string>
+	<key>PayloadDisplayName</key>
+	<string>Security Preferences</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.security</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

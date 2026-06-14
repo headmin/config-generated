@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Spotlight Search settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>orderedItems</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.Spotlight</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Spotlight.payload</string>
+			<key>PayloadUUID</key>
+			<string>54C4BE76-8B52-500C-9108-4A4D17F91DA3</string>
+			<key>PayloadDisplayName</key>
+			<string>Spotlight</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>19E9991E-BDFE-5E70-AEB5-0E097FBBC249</string>
+	<key>PayloadDisplayName</key>
+	<string>Spotlight</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Spotlight</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

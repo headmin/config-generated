@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Xcode settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IDEProhibitOnDeviceModelInteraction</key>
+			<false/>
+			<key>IDEProhibitRemoteModelInteraction</key>
+			<false/>
+			<key>CodingAssistantAllowExternalIntegrations</key>
+			<true/>
+			<key>PayloadType</key>
+			<string>com.apple.dt.Xcode</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Xcode.payload</string>
+			<key>PayloadUUID</key>
+			<string>9BC1FB15-D6BA-5A2E-8449-6E62D6044829</string>
+			<key>PayloadDisplayName</key>
+			<string>Xcode</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>F7D4E111-9699-58EA-86EB-D93CAE5FAF6D</string>
+	<key>PayloadDisplayName</key>
+	<string>Xcode</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Xcode</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

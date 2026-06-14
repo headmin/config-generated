@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Compressor settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FFCheckedUpgrade</key>
+			<false/>
+			<key>LKWhatsNewDisplayedForAppVersion</key>
+			<dict>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<true/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.Compressor</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Compressor.payload</string>
+			<key>PayloadUUID</key>
+			<string>53F2E680-3F40-5A18-89F7-796235AF5744</string>
+			<key>PayloadDisplayName</key>
+			<string>Compressor</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>4D19B331-7F2D-54A7-BD0A-6E58BCA4CE06</string>
+	<key>PayloadDisplayName</key>
+	<string>Compressor</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Compressor</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

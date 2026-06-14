@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures an Exchange Web Services accounts.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EmailAddress</key>
+			<string></string>
+			<key>Host</key>
+			<string></string>
+			<key>SSL</key>
+			<true/>
+			<key>OAuth</key>
+			<false/>
+			<key>OAuthSignInURL</key>
+			<string></string>
+			<key>UserName</key>
+			<string></string>
+			<key>Password</key>
+			<string></string>
+			<key>PayloadCertificateUUID</key>
+			<string></string>
+			<key>AuthenticationCertificateUUID</key>
+			<string></string>
+			<key>allowMailDrop</key>
+			<false/>
+			<key>Path</key>
+			<string></string>
+			<key>Port</key>
+			<integer>0</integer>
+			<key>ExternalHost</key>
+			<string></string>
+			<key>ExternalSSL</key>
+			<true/>
+			<key>ExternalPath</key>
+			<string></string>
+			<key>ExternalPort</key>
+			<integer>0</integer>
+			<key>IdentificationUUID</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.ews.account</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.account.payload</string>
+			<key>PayloadUUID</key>
+			<string>F6E23C57-1048-5B3B-AA30-B473B2A34850</string>
+			<key>PayloadDisplayName</key>
+			<string>Exchange Web Services</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>48FECF4A-6070-5FFB-8B14-7DA668E9B41E</string>
+	<key>PayloadDisplayName</key>
+	<string>Exchange Web Services</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.account</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

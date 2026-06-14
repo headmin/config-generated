@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Responds to the removal of the MDM enrollment profile from a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>MessageType</key>
+			<string></string>
+			<key>Topic</key>
+			<string></string>
+			<key>UDID</key>
+			<string></string>
+			<key>EnrollmentID</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>CheckOut</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.CheckOut.payload</string>
+			<key>PayloadUUID</key>
+			<string>135494BE-B941-5513-8912-6C7DADA13526</string>
+			<key>PayloadDisplayName</key>
+			<string>Check Out</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>FD00C023-A2C3-54E5-9C3D-1349F61BA375</string>
+	<key>PayloadDisplayName</key>
+	<string>Check Out</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.CheckOut</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

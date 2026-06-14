@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Get app feedback from a managed app on the device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Identifiers</key>
+			<string></string>
+			<key>DeleteFeedback</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>ManagedApplicationFeedback</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ManagedApplicationFeedback.payload</string>
+			<key>PayloadUUID</key>
+			<string>2099356C-594A-59D7-AC60-0D9D0EF54841</string>
+			<key>PayloadDisplayName</key>
+			<string>Managed Application Feedback Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>59A54B56-BFE9-56F8-A164-D8F651430935</string>
+	<key>PayloadDisplayName</key>
+	<string>Managed Application Feedback Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ManagedApplicationFeedback</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

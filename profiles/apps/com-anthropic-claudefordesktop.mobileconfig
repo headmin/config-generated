@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Claude Desktop enterprise configuration settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>forceLoginOrgUUID</key>
+			<string></string>
+			<key>disableAutoUpdates</key>
+			<false/>
+			<key>autoUpdaterEnforcementHours</key>
+			<integer>72</integer>
+			<key>isDesktopExtensionEnabled</key>
+			<true/>
+			<key>isDesktopExtensionDirectoryEnabled</key>
+			<true/>
+			<key>isLocalDevMcpEnabled</key>
+			<true/>
+			<key>isClaudeCodeForDesktopEnabled</key>
+			<true/>
+			<key>secureVmFeaturesEnabled</key>
+			<true/>
+			<key>isDesktopExtensionSignatureRequired</key>
+			<false/>
+			<key>disabledBuiltinTools</key>
+			<array/>
+			<key>managedMcpServers</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.anthropic.claudefordesktop</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.claudefordesktop.payload</string>
+			<key>PayloadUUID</key>
+			<string>1AB11027-4EAF-535B-BBF5-93865E3C3F7E</string>
+			<key>PayloadDisplayName</key>
+			<string>Claude Desktop</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C148BB5D-5E0C-5DA2-AB03-944E1D117E7E</string>
+	<key>PayloadDisplayName</key>
+	<string>Claude Desktop</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.claudefordesktop</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

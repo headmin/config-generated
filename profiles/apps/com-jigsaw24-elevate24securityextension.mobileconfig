@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Monitoring Extension for Elevate24 by Jigsaw24</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>siemUploadURL</key>
+			<string></string>
+			<key>siemUploadHeaders</key>
+			<array/>
+			<key>siemNewLineSeperated</key>
+			<false/>
+			<key>SentinelTennantId</key>
+			<string></string>
+			<key>SentinelClientId</key>
+			<string></string>
+			<key>SentinelClientSecret</key>
+			<string></string>
+			<key>SentinelUploadURL</key>
+			<string></string>
+			<key>MaxDataUploadSize</key>
+			<integer>1000000</integer>
+			<key>DefaultFilterRules</key>
+			<false/>
+			<key>SelfProtectionRules</key>
+			<false/>
+			<key>DisableAll</key>
+			<false/>
+			<key>UploadEventsToJigsaw</key>
+			<false/>
+			<key>EnableArchive</key>
+			<false/>
+			<key>MaxArchiveAge</key>
+			<integer>7</integer>
+			<key>UploadOnHotspot</key>
+			<false/>
+			<key>FileOperationRules</key>
+			<array/>
+			<key>ExecuteProcessRules</key>
+			<array/>
+			<key>logAllEventTypes</key>
+			<false/>
+			<key>EventsToLog</key>
+			<array/>
+			<key>filterRules</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.jigsaw24.Elevate24SecurityExtension</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Elevate24SecurityExtension.payload</string>
+			<key>PayloadUUID</key>
+			<string>F5B15F8B-E7B9-593D-8E65-26C2F73BBE92</string>
+			<key>PayloadDisplayName</key>
+			<string>Elevate24 Security Logging</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C584A479-33BE-5787-A6DE-34EBCFCF7E05</string>
+	<key>PayloadDisplayName</key>
+	<string>Elevate24 Security Logging</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Elevate24SecurityExtension</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

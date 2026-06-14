@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Developer: Slider settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Slider01</key>
+			<string></string>
+			<key>Slider02</key>
+			<string></string>
+			<key>Slider03</key>
+			<string></string>
+			<key>Slider04</key>
+			<string></string>
+			<key>Slider05</key>
+			<string></string>
+			<key>Slider06</key>
+			<string></string>
+			<key>Slider07</key>
+			<string></string>
+			<key>Slider08</key>
+			<string></string>
+			<key>Slider09</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.profilecreator.developer.slider</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.slider.payload</string>
+			<key>PayloadUUID</key>
+			<string>2174A6D7-E0F6-5F2F-9057-96AAD4885557</string>
+			<key>PayloadDisplayName</key>
+			<string>Developer: Slider</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>ECA15587-C08F-5BEF-92F3-9E88E2CD8255</string>
+	<key>PayloadDisplayName</key>
+	<string>Developer: Slider</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.slider</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

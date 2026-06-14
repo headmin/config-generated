@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Developer: TextField Float settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>TextFieldFloat01</key>
+			<string></string>
+			<key>TextFieldFloat02</key>
+			<string></string>
+			<key>TextFieldFloat03</key>
+			<string></string>
+			<key>TextFieldFloat04</key>
+			<string></string>
+			<key>TextFieldFloat05</key>
+			<string>99</string>
+			<key>TextFieldFloat06</key>
+			<string></string>
+			<key>TextFieldFloat07</key>
+			<string></string>
+			<key>TextFieldFloat08</key>
+			<string></string>
+			<key>TextFieldFloat09</key>
+			<string></string>
+			<key>TextFieldFloat10</key>
+			<string>98</string>
+			<key>TextFieldFloat11</key>
+			<string>2</string>
+			<key>TextFieldFloat12</key>
+			<string>2</string>
+			<key>PayloadType</key>
+			<string>com.profilecreator.developer.TextFieldFloat</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.TextFieldFloat.payload</string>
+			<key>PayloadUUID</key>
+			<string>229E1BDA-6A04-5524-8528-5F9EF6078CDB</string>
+			<key>PayloadDisplayName</key>
+			<string>Developer: TextField Float</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>0B55A9A6-B309-53F9-9FA6-0EC4BD833EAA</string>
+	<key>PayloadDisplayName</key>
+	<string>Developer: TextField Float</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.TextFieldFloat</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

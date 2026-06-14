@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the user&apos;s identity on the device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string></string>
+			<key>PayloadCertificateUUID</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.security.identitypreference</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.identitypreference.payload</string>
+			<key>PayloadUUID</key>
+			<string>820A23D9-0D6B-5821-B135-60A2F23424B3</string>
+			<key>PayloadDisplayName</key>
+			<string>Identity Preference</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>8C48D923-3ABC-5295-A585-66C21C715D5A</string>
+	<key>PayloadDisplayName</key>
+	<string>Identity Preference</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.identitypreference</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

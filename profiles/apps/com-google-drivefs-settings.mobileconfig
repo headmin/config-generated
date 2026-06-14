@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Google Drive for desktop</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowedAccountsPattern</key>
+			<string>&quot;.*@(mydomain1|mydomain2).com&quot;</string>
+			<key>AutoStartOnLogin</key>
+			<false/>
+			<key>BandwidthRxKBPS</key>
+			<integer>0</integer>
+			<key>BandwidthTxKBPS</key>
+			<integer>0</integer>
+			<key>ContentCachePath</key>
+			<string>&quot;~/Library/Application Support/Google/DriveFS&quot;</string>
+			<key>ContentCacheMaxKbytes</key>
+			<integer>0</integer>
+			<key>DefaultMountPoint</key>
+			<string>&quot;/Volumes/GoogleDrive&quot;</string>
+			<key>DisableExternalMediaSync</key>
+			<false/>
+			<key>DisableLocalizedVirtualFolders</key>
+			<false/>
+			<key>DisableMeetOutlookPlugin</key>
+			<false/>
+			<key>DisableMirroredFolders</key>
+			<false/>
+			<key>DisableMirroredMyDrive</key>
+			<false/>
+			<key>DisableOnboardingDialog</key>
+			<false/>
+			<key>DisableOutlookPlugin</key>
+			<false/>
+			<key>DisablePhotosSync</key>
+			<false/>
+			<key>DisableRealTimePresence</key>
+			<false/>
+			<key>ForceBrowserAuth</key>
+			<false/>
+			<key>MinFreeDiskSpaceKBytes</key>
+			<integer>0</integer>
+			<key>OpenOfficeFilesInDocs</key>
+			<true/>
+			<key>PromptToBackupDevices</key>
+			<true/>
+			<key>DirectConnection</key>
+			<false/>
+			<key>DisableCRLCheck</key>
+			<false/>
+			<key>DisableSSLValidation</key>
+			<false/>
+			<key>TrustedRootCertsFile</key>
+			<string></string>
+			<key>AutomaticErrorReporting</key>
+			<true/>
+			<key>PayloadType</key>
+			<string>com.google.drivefs.settings</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.settings.payload</string>
+			<key>PayloadUUID</key>
+			<string>1C59B50C-4449-5C1B-A306-DAB4ECE55612</string>
+			<key>PayloadDisplayName</key>
+			<string>Google Drive for desktop</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>7B94D201-987A-5B94-9F09-C565D96EC972</string>
+	<key>PayloadDisplayName</key>
+	<string>Google Drive for desktop</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.settings</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

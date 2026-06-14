@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Remotely and immediately erase a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PreserveDataPlan</key>
+			<string>false</string>
+			<key>DisallowProximitySetup</key>
+			<string>false</string>
+			<key>PIN</key>
+			<string></string>
+			<key>ObliterationBehavior</key>
+			<string></string>
+			<key>ReturnToService</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>EraseDevice</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.EraseDevice.payload</string>
+			<key>PayloadUUID</key>
+			<string>2A92C901-B054-50D4-997C-25AFC7EDF1EC</string>
+			<key>PayloadDisplayName</key>
+			<string>Erase Device Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>04998879-89D4-513A-A80A-771A75002F23</string>
+	<key>PayloadDisplayName</key>
+	<string>Erase Device Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.EraseDevice</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

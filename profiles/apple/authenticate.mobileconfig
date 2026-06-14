@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Authenticates a user during MDM payload installation.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DeviceName</key>
+			<string></string>
+			<key>ModelName</key>
+			<string></string>
+			<key>Model</key>
+			<string></string>
+			<key>MessageType</key>
+			<string></string>
+			<key>Topic</key>
+			<string></string>
+			<key>UDID</key>
+			<string></string>
+			<key>EnrollmentID</key>
+			<string></string>
+			<key>OSVersion</key>
+			<string></string>
+			<key>BuildVersion</key>
+			<string></string>
+			<key>ProductName</key>
+			<string></string>
+			<key>SerialNumber</key>
+			<string></string>
+			<key>IMEI</key>
+			<string></string>
+			<key>MEID</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>Authenticate</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Authenticate.payload</string>
+			<key>PayloadUUID</key>
+			<string>DF86EDB6-C29A-513F-838F-39362DB6665F</string>
+			<key>PayloadDisplayName</key>
+			<string>Authenticate</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>889F3B25-7269-5F3B-B5F4-4423280CA37A</string>
+	<key>PayloadDisplayName</key>
+	<string>Authenticate</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Authenticate</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

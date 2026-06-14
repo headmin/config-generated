@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Install or Defer settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>InstallButtonLabel</key>
+			<string>&quot;Install&quot;</string>
+			<key>DeferButtonLabel</key>
+			<string>&quot;Defer&quot;</string>
+			<key>DisablePostInstallAlert</key>
+			<false/>
+			<key>MessagingLogo</key>
+			<string></string>
+			<key>SupportContact</key>
+			<string>&quot;IT&quot;</string>
+			<key>DeferralPeriod</key>
+			<integer>14400</integer>
+			<key>HardRestartDelay</key>
+			<integer>300</integer>
+			<key>MaxDeferralTime</key>
+			<integer>259200</integer>
+			<key>PromptTimeout</key>
+			<integer>3600</integer>
+			<key>SkipDeferral</key>
+			<false/>
+			<key>UpdateDelay</key>
+			<integer>600</integer>
+			<key>WorkdayStartHour</key>
+			<integer>0</integer>
+			<key>WorkdayEndHour</key>
+			<integer>0</integer>
+			<key>DiagnosticLog</key>
+			<false/>
+			<key>ManualUpdates</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.github.wavebirddash.install-or-defer</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.install-or-defer.payload</string>
+			<key>PayloadUUID</key>
+			<string>EA4D6999-F518-5F6C-A5EC-6E106C2A38CA</string>
+			<key>PayloadDisplayName</key>
+			<string>Install or Defer</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>01BCAC0F-8146-5BFA-888C-89CDEF916298</string>
+	<key>PayloadDisplayName</key>
+	<string>Install or Defer</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.install-or-defer</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

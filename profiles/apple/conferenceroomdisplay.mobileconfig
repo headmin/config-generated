@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures Conference Room Display mode for Apple TV.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Message</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.conferenceroomdisplay</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.conferenceroomdisplay.payload</string>
+			<key>PayloadUUID</key>
+			<string>13CC824B-680C-5476-96D1-93751934F1A0</string>
+			<key>PayloadDisplayName</key>
+			<string>Conference Room Display</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>B59DCA50-5920-5D1A-BF1D-5B7D4AC487B7</string>
+	<key>PayloadDisplayName</key>
+	<string>Conference Room Display</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.conferenceroomdisplay</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

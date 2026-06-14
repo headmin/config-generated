@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>iMovie settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FFiMovieUpgradeFirstRun</key>
+			<false/>
+			<key>LKWelcomeDisplayedForAppVersion</key>
+			<dict>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<true/>
+			</dict>
+			<key>LKWhatsNewDisplayedForAppVersion</key>
+			<dict>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<true/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.iMovieApp</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.iMovieApp.payload</string>
+			<key>PayloadUUID</key>
+			<string>F607F433-0978-53FB-AE89-998BE5C6D79B</string>
+			<key>PayloadDisplayName</key>
+			<string>iMovie</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1320AA13-573D-5175-8693-6B22802760B3</string>
+	<key>PayloadDisplayName</key>
+	<string>iMovie</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.iMovieApp</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

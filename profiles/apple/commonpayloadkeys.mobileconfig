@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The properties common to all payloads.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.CommonPayloadKeys.payload</string>
+			<key>PayloadUUID</key>
+			<string>6AAE7065-1C2C-5FF3-BAF0-A74F7F75FAA6</string>
+			<key>PayloadType</key>
+			<string>CommonPayloadKeys</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Common Payload Keys</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+			<key>PayloadEnabled</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>2B59F861-04E6-5878-9346-DE3B08427D05</string>
+	<key>PayloadDisplayName</key>
+	<string>Common Payload Keys</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.CommonPayloadKeys</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Get a list of active extensions for a user on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FilterExtensionPoints</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>ActiveNSExtensions</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ActiveNSExtensions.payload</string>
+			<key>PayloadUUID</key>
+			<string>78A8F9BB-8B06-5EDD-8B36-75B1AA8DA457</string>
+			<key>PayloadDisplayName</key>
+			<string>Active NSExtensions Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>273066A2-E411-5F8A-BB6A-E2A8E4F4520D</string>
+	<key>PayloadDisplayName</key>
+	<string>Active NSExtensions Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ActiveNSExtensions</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

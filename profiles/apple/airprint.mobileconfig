@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures AirPrint printer discoverability in the user&apos;s printer list.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AirPrint</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.airprint</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.airprint.payload</string>
+			<key>PayloadUUID</key>
+			<string>AA30E1AF-EFF8-5F90-8484-263692E1FA16</string>
+			<key>PayloadDisplayName</key>
+			<string>AirPrint</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>05F5BC5F-5F16-537A-8ECA-4944CF7B5CCC</string>
+	<key>PayloadDisplayName</key>
+	<string>AirPrint</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.airprint</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

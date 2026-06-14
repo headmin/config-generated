@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Enable Lost Mode on a device, which provides a message and phone number on the Lock Screen.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Message</key>
+			<string></string>
+			<key>PhoneNumber</key>
+			<string></string>
+			<key>Footnote</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>EnableLostMode</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.EnableLostMode.payload</string>
+			<key>PayloadUUID</key>
+			<string>B0931111-16DC-5756-A1D6-387E2841B7D4</string>
+			<key>PayloadDisplayName</key>
+			<string>Enable Lost Mode Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>27182819-3953-5152-BC03-858C0973D22A</string>
+	<key>PayloadDisplayName</key>
+	<string>Enable Lost Mode Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.EnableLostMode</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

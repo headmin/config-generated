@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Microsoft Office 365 Service settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>SendAllTelemetryEnabled</key>
+			<true/>
+			<key>PayloadType</key>
+			<string>com.microsoft.Office365ServiceV2</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Office365ServiceV2.payload</string>
+			<key>PayloadUUID</key>
+			<string>5CF0AAA0-B5F2-5C17-9040-57DFDB310606</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft Office 365 Service</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1E324C53-49A0-5293-BA2A-EA3DED0839A0</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft Office 365 Service</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Office365ServiceV2</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

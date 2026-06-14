@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The URL to the app manifest.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>items</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>ManifestURL</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ManifestURL.payload</string>
+			<key>PayloadUUID</key>
+			<string>34B00A8A-B7AE-5A48-99A9-E570FB3862EA</string>
+			<key>PayloadDisplayName</key>
+			<string>ManifestURL</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>850E6C1C-CEF4-5202-8837-25135C55BF78</string>
+	<key>PayloadDisplayName</key>
+	<string>ManifestURL</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ManifestURL</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

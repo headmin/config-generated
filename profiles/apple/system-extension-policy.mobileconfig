@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures system extensions.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowUserOverrides</key>
+			<true/>
+			<key>AllowedTeamIdentifiers</key>
+			<array/>
+			<key>AllowedSystemExtensionTypes</key>
+			<dict>
+				<key>ANY</key>
+				<array/>
+			</dict>
+			<key>AllowedSystemExtensions</key>
+			<dict>
+				<key>ANY</key>
+				<array/>
+			</dict>
+			<key>RemovableSystemExtensions</key>
+			<dict>
+				<key>ANY</key>
+				<array/>
+			</dict>
+			<key>NonRemovableSystemExtensions</key>
+			<dict>
+				<key>ANY</key>
+				<array/>
+			</dict>
+			<key>NonRemovableFromUISystemExtensions</key>
+			<dict>
+				<key>ANY</key>
+				<array/>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<array/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.system-extension-policy</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.system-extension-policy.payload</string>
+			<key>PayloadUUID</key>
+			<string>9D4B1928-E654-53C9-A237-F05E002FC7E1</string>
+			<key>PayloadDisplayName</key>
+			<string>System Extensions</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>CB57EEB2-522E-5D8A-A0E1-7310EFF47B51</string>
+	<key>PayloadDisplayName</key>
+	<string>System Extensions</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.system-extension-policy</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

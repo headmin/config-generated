@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the extensions that the system allows or disallows to run on the device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowedExtensions</key>
+			<array/>
+			<key>DeniedExtensions</key>
+			<array/>
+			<key>DeniedExtensionPoints</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.NSExtension</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.NSExtension.payload</string>
+			<key>PayloadUUID</key>
+			<string>15A894FB-8BAE-559C-BE61-4EA308D586ED</string>
+			<key>PayloadDisplayName</key>
+			<string>NSExtension Management</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>5B553B06-0512-59BE-8189-CFE9D4FC2A3F</string>
+	<key>PayloadDisplayName</key>
+	<string>NSExtension Management</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.NSExtension</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

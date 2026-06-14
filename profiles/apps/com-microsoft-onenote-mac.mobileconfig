@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Microsoft OneNote settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<false/>
+			<key>SendASmileEnabled</key>
+			<true/>
+			<key>SendAllTelemetryEnabled</key>
+			<true/>
+			<key>SendCrashReportsEvenWithTelemetryDisabled</key>
+			<false/>
+			<key>SignInOptions</key>
+			<integer>0</integer>
+			<key>kFRETelemetryConsentKey</key>
+			<false/>
+			<key>kFREEnterpriseTelemetryInfoKey</key>
+			<false/>
+			<key>kFREIntelligenceServicesConsentV2Key</key>
+			<false/>
+			<key>PII_And_Intelligent_Services_Preference</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.microsoft.onenote.mac</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.mac.payload</string>
+			<key>PayloadUUID</key>
+			<string>397EFA6E-4CBE-55E7-A01E-E225292C3063</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft OneNote</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>866C00B4-2285-5D54-A689-914959E1BBF8</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft OneNote</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.mac</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

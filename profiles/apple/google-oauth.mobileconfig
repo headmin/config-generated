@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures a Google account.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AccountDescription</key>
+			<string></string>
+			<key>AccountName</key>
+			<string></string>
+			<key>EmailAddress</key>
+			<string></string>
+			<key>CommunicationServiceRules</key>
+			<dict>
+				<key>DefaultServiceHandlers</key>
+				<dict>
+					<key>AudioCall</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>VPNUUID</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.google-oauth</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.google-oauth.payload</string>
+			<key>PayloadUUID</key>
+			<string>0876429F-2CF1-5BAD-8937-54AFEE225B91</string>
+			<key>PayloadDisplayName</key>
+			<string>Google Account</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1C3F1DCA-D969-51A7-BE5A-DAC93F05656F</string>
+	<key>PayloadDisplayName</key>
+	<string>Google Account</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.google-oauth</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

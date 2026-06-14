@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Logic Pro X settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DontShowAdditionalContentDowload</key>
+			<false/>
+			<key>FeatureAvailable_ExpertAudio</key>
+			<false/>
+			<key>FeatureAvailable_ExpertCS</key>
+			<false/>
+			<key>FeatureAvailable_ExpertEditing</key>
+			<false/>
+			<key>FeatureAvailable_ExpertMIDI</key>
+			<false/>
+			<key>FeatureAvailable_ExpertScore</key>
+			<false/>
+			<key>FeatureAvailable_Surround</key>
+			<false/>
+			<key>userLevel</key>
+			<integer>0</integer>
+			<key>startupAction</key>
+			<integer>0</integer>
+			<key>RecentWhatsNewPanelVersion</key>
+			<integer>99</integer>
+			<key>QuickHelpMode</key>
+			<integer>1</integer>
+			<key>PayloadType</key>
+			<string>com.apple.logic10</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.logic10.payload</string>
+			<key>PayloadUUID</key>
+			<string>1CE52C29-BDA5-5A07-915B-794B610D028B</string>
+			<key>PayloadDisplayName</key>
+			<string>Logic Pro X</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C4FCB739-BB7D-5766-8156-47F658F44CF7</string>
+	<key>PayloadDisplayName</key>
+	<string>Logic Pro X</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.logic10</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

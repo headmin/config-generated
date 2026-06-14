@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Enable your server to support declarative management or trigger a declarative management synchronization operation on the device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Data</key>
+			<string></string>
+			<key>MessageType</key>
+			<string></string>
+			<key>Endpoint</key>
+			<string></string>
+			<key>UDID</key>
+			<string></string>
+			<key>EnrollmentID</key>
+			<string></string>
+			<key>EnrollmentUserID</key>
+			<string></string>
+			<key>UserShortName</key>
+			<string></string>
+			<key>UserID</key>
+			<string></string>
+			<key>UserLongName</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>DeclarativeManagement</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.DeclarativeManagement.payload</string>
+			<key>PayloadUUID</key>
+			<string>2DB5BB6B-0639-5944-9F8C-88246E6EA41A</string>
+			<key>PayloadDisplayName</key>
+			<string>Declarative Management Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>F8F82CF4-2F51-52C9-82DC-F8FC79054BB2</string>
+	<key>PayloadDisplayName</key>
+	<string>Declarative Management Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.DeclarativeManagement</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

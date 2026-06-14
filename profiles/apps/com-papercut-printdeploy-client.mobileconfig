@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>PaperCut Print Deploy Settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>server_host</key>
+			<string></string>
+			<key>server_port</key>
+			<string></string>
+			<key>server_scheme</key>
+			<string>&quot;https&quot;</string>
+			<key>skip_dpm</key>
+			<false/>
+			<key>strict_ssl</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.papercut.printdeploy.client</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.client.payload</string>
+			<key>PayloadUUID</key>
+			<string>95BEBFE2-5D1D-50B8-B5D2-967E75A5FC87</string>
+			<key>PayloadDisplayName</key>
+			<string>PaperCut Print Deploy</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>A26E9023-5056-5BAE-9993-A8DE32EA7225</string>
+	<key>PayloadDisplayName</key>
+	<string>PaperCut Print Deploy</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.client</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

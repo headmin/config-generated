@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Sends the bootstrap token to the server.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>MessageType</key>
+			<string></string>
+			<key>BootstrapToken</key>
+			<string></string>
+			<key>AwaitingConfiguration</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>SetBootstrapToken</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.SetBootstrapToken.payload</string>
+			<key>PayloadUUID</key>
+			<string>BE85294C-1B0F-5116-BA21-4AD2668BE492</string>
+			<key>PayloadDisplayName</key>
+			<string>Set Bootstrap Token</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>41FE9EE4-099C-525A-887B-4EB3A81B5824</string>
+	<key>PayloadDisplayName</key>
+	<string>Set Bootstrap Token</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.SetBootstrapToken</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

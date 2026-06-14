@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures a PKCS #1-formatted certificate.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string></string>
+			<key>PayloadContent</key>
+			<data>
+			</data>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.pkcs1.payload</string>
+			<key>PayloadUUID</key>
+			<string>40270130-B11B-58A6-A60D-87E3B9B59207</string>
+			<key>PayloadDisplayName</key>
+			<string>Certificate (PKCS #1)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>DA866CE8-10CF-5F3A-AFC5-9E1CD0438EDD</string>
+	<key>PayloadDisplayName</key>
+	<string>Certificate (PKCS #1)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.pkcs1</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

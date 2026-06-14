@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>A device&apos;s information in response to a MDM enrollment profile request.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>UDID</key>
+			<string></string>
+			<key>SERIAL</key>
+			<string></string>
+			<key>PRODUCT</key>
+			<string></string>
+			<key>VERSION</key>
+			<string></string>
+			<key>OS_VERSION</key>
+			<string></string>
+			<key>SUPPLEMENTAL_BUILD_VERSION</key>
+			<string></string>
+			<key>SUPPLEMENTAL_OS_VERSION_EXTRA</key>
+			<string></string>
+			<key>IMEI</key>
+			<string></string>
+			<key>MEID</key>
+			<string></string>
+			<key>LANGUAGE</key>
+			<string></string>
+			<key>MDM_CAN_REQUEST_SOFTWARE_UPDATE</key>
+			<false/>
+			<key>PAIRING_TOKEN</key>
+			<data>
+			</data>
+			<key>SOFTWARE_UPDATE_DEVICE_ID</key>
+			<string></string>
+			<key>MDM_CAN_REQUEST_PSSO_CONFIG</key>
+			<false/>
+			<key>MANDATORY_SOFTWARE_UPDATE_REQUIRED</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>MachineInfo</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.MachineInfo.payload</string>
+			<key>PayloadUUID</key>
+			<string>A1F094CC-BEFC-5C87-822C-BE64527F34A3</string>
+			<key>PayloadDisplayName</key>
+			<string>MachineInfo</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>4EE687E2-3AB5-59FF-9D28-237D4DDCDC86</string>
+	<key>PayloadDisplayName</key>
+	<string>MachineInfo</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.MachineInfo</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

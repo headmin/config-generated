@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Get the status of all managed apps on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Identifiers</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>ManagedApplicationList</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ManagedApplicationList.payload</string>
+			<key>PayloadUUID</key>
+			<string>2CDDF1A7-D582-5EB2-A936-EFF0904F300B</string>
+			<key>PayloadDisplayName</key>
+			<string>Managed Application List Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>9BCD9173-C9DD-5081-A672-09227CB333E0</string>
+	<key>PayloadDisplayName</key>
+	<string>Managed Application List Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ManagedApplicationList</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

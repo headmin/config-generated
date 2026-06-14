@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Get a list of installed profiles on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ManagedOnly</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>ProfileList</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ProfileList.payload</string>
+			<key>PayloadUUID</key>
+			<string>01A4E5DE-8E9A-5EAF-9EA3-08FA2B9A096A</string>
+			<key>PayloadDisplayName</key>
+			<string>Profile List Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>96F123B2-D445-5391-99F3-C955F0A36194</string>
+	<key>PayloadDisplayName</key>
+	<string>Profile List Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ProfileList</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

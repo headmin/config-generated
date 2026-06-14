@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>CoreServices UIAgent</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>CSUIDisable32BitWarnings</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.coreservices.uiagent</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.uiagent.payload</string>
+			<key>PayloadUUID</key>
+			<string>01101D7C-3348-5895-95B6-AE0A9E8C26D4</string>
+			<key>PayloadDisplayName</key>
+			<string>CoreServices UIAgent</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>99C65AC9-7448-5027-9B41-EF92B447B315</string>
+	<key>PayloadDisplayName</key>
+	<string>CoreServices UIAgent</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.uiagent</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

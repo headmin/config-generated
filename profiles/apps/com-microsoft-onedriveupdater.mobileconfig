@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Microsoft OneDrive Updater settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Tier</key>
+			<string>&quot;Production&quot;</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.OneDriveUpdater</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.OneDriveUpdater.payload</string>
+			<key>PayloadUUID</key>
+			<string>D6342C73-1ED9-563C-95F9-302A5BE5826E</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft OneDrive Updater</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>97DD3802-4914-5EC7-9D26-BC46397C7538</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft OneDrive Updater</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.OneDriveUpdater</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

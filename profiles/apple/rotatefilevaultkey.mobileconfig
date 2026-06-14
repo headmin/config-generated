@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Change the FileVault primary password on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>KeyType</key>
+			<string></string>
+			<key>FileVaultUnlock</key>
+			<string></string>
+			<key>NewCertificate</key>
+			<string></string>
+			<key>ReplyEncryptionCertificate</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>RotateFileVaultKey</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.RotateFileVaultKey.payload</string>
+			<key>PayloadUUID</key>
+			<string>0ECBB431-FA6F-53A9-9B5C-4ADEDB023B26</string>
+			<key>PayloadDisplayName</key>
+			<string>Rotate FileVault Key Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>51AE282F-304F-5236-9603-76644F2CB22D</string>
+	<key>PayloadDisplayName</key>
+	<string>Rotate FileVault Key Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.RotateFileVaultKey</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

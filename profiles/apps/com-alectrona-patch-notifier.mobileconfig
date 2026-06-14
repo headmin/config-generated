@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Settings for Patch Notifier</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DialogDescription</key>
+			<string></string>
+			<key>UpdateButtonLabel</key>
+			<string></string>
+			<key>DeferButtonLabel</key>
+			<string></string>
+			<key>UpdateButtonPrimary</key>
+			<false/>
+			<key>ContentImagePath</key>
+			<string></string>
+			<key>DialogTimeout</key>
+			<integer>0</integer>
+			<key>DialogHelpText</key>
+			<string></string>
+			<key>DialogHelpToolTip</key>
+			<string></string>
+			<key>DialogTitle</key>
+			<string></string>
+			<key>DeferralLimit</key>
+			<integer>0</integer>
+			<key>DeferralLimitExceptions</key>
+			<array/>
+			<key>FinalDialogDescription</key>
+			<string></string>
+			<key>DialogDeferralText</key>
+			<string></string>
+			<key>IgnoreDeferralText</key>
+			<false/>
+			<key>RecordTimeoutAsDeferral</key>
+			<false/>
+			<key>FinalDialogTimeout</key>
+			<integer>0</integer>
+			<key>PayloadType</key>
+			<string>com.alectrona.patch-notifier</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.patch-notifier.payload</string>
+			<key>PayloadUUID</key>
+			<string>237CDA14-1266-518D-BD2F-2179DEB42AE8</string>
+			<key>PayloadDisplayName</key>
+			<string>Alectrona Patch Notifier</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>7F2AFD65-E167-5E89-886E-9632986B0BF8</string>
+	<key>PayloadDisplayName</key>
+	<string>Alectrona Patch Notifier</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.patch-notifier</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the screen saver.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>askForPassword</key>
+			<false/>
+			<key>askForPasswordDelay</key>
+			<integer>0</integer>
+			<key>idleTime</key>
+			<integer>0</integer>
+			<key>loginWindowModulePath</key>
+			<string></string>
+			<key>moduleName</key>
+			<string></string>
+			<key>loginWindowIdleTime</key>
+			<integer>300</integer>
+			<key>PayloadType</key>
+			<string>com.apple.screensaver</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.screensaver.payload</string>
+			<key>PayloadUUID</key>
+			<string>082E9362-4DB8-5D43-990A-B80549123953</string>
+			<key>PayloadDisplayName</key>
+			<string>Screensaver</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>D6C6F3E0-6EB6-5CBA-B1AE-360AB55ABD55</string>
+	<key>PayloadDisplayName</key>
+	<string>Screensaver</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.screensaver</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

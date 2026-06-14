@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Slack Client Management</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ClientEnvironment</key>
+			<integer>0</integer>
+			<key>HardwareAcceleration</key>
+			<false/>
+			<key>DownloadPath</key>
+			<string></string>
+			<key>DefaultSignInTeam</key>
+			<string></string>
+			<key>ReleaseChannel</key>
+			<string></string>
+			<key>AutoUpdate</key>
+			<true/>
+			<key>Defaults</key>
+			<dict/>
+			<key>SlackNoAutoUpdates</key>
+			<false/>
+			<key>SlackDefaultSignInWorkspace</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.tinyspeck.slackmacgap</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.slackmacgap.payload</string>
+			<key>PayloadUUID</key>
+			<string>31642FC3-2C55-57CA-BB4C-88F805088491</string>
+			<key>PayloadDisplayName</key>
+			<string>Slack</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>423B9295-378C-5035-9F98-D4614766AAF7</string>
+	<key>PayloadDisplayName</key>
+	<string>Slack</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.slackmacgap</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

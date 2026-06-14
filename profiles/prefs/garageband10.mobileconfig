@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>GarageBand settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>welcomeScreenShown</key>
+			<false/>
+			<key>ShowMoreDownloadsDialogGB</key>
+			<false/>
+			<key>RecentWhatsNewPanelVersion</key>
+			<integer>99</integer>
+			<key>PayloadType</key>
+			<string>com.apple.garageband10</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.garageband10.payload</string>
+			<key>PayloadUUID</key>
+			<string>83199FE9-BA7E-5DF5-BA60-03A42A76AD3A</string>
+			<key>PayloadDisplayName</key>
+			<string>GarageBand</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E93E3FBE-AA5C-5347-8331-7F43FD1836CF</string>
+	<key>PayloadDisplayName</key>
+	<string>GarageBand</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.garageband10</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

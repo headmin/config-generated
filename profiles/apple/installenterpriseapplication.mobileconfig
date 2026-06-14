@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Install an enterprise app on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Manifest</key>
+			<string></string>
+			<key>ManifestURL</key>
+			<string></string>
+			<key>ManifestURLPinningCerts</key>
+			<string></string>
+			<key>PinningRevocationCheckRequired</key>
+			<string>false</string>
+			<key>InstallAsManaged</key>
+			<string>false</string>
+			<key>ManagementFlags</key>
+			<string></string>
+			<key>Configuration</key>
+			<string></string>
+			<key>ChangeManagementState</key>
+			<string></string>
+			<key>iOSApp</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>InstallEnterpriseApplication</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.InstallEnterpriseApplication.payload</string>
+			<key>PayloadUUID</key>
+			<string>C054AC5F-325E-59F5-8CC4-2BB0491FC226</string>
+			<key>PayloadDisplayName</key>
+			<string>Install Enterprise Application Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C513C496-8A58-579D-974E-F9C6D5501BAE</string>
+	<key>PayloadDisplayName</key>
+	<string>Install Enterprise Application Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.InstallEnterpriseApplication</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

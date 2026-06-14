@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Invite a user to join the Volume Purchase Program (VPP).</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ProgramID</key>
+			<string></string>
+			<key>InvitationURL</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>InviteToProgram</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.InviteToProgram.payload</string>
+			<key>PayloadUUID</key>
+			<string>DC4428CF-8542-5EBD-8EB7-3FD8EBFEA365</string>
+			<key>PayloadDisplayName</key>
+			<string>Invite To Program Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6ECFFDFA-CE27-5984-BB6A-ADD06CE48798</string>
+	<key>PayloadDisplayName</key>
+	<string>Invite To Program Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.InviteToProgram</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

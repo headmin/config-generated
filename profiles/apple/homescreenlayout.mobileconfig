@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the Home Screen layout.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Dock</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.homescreenlayout</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.homescreenlayout.payload</string>
+			<key>PayloadUUID</key>
+			<string>2FB8341C-043A-5B65-A018-CF708F556A1B</string>
+			<key>PayloadDisplayName</key>
+			<string>Home Screen Layout</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>8D78FB4D-41AB-5B12-96C5-7E9C96541436</string>
+	<key>PayloadDisplayName</key>
+	<string>Home Screen Layout</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.homescreenlayout</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

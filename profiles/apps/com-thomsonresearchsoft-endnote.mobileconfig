@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>EndNote settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AcceptedENX7.2EULA</key>
+			<string>&quot;0&quot;</string>
+			<key>AcceptedENX9EULA</key>
+			<string>&quot;0&quot;</string>
+			<key>ShowGettingStartedX9</key>
+			<string>&quot;1&quot;</string>
+			<key>IgnoredVersions</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.ThomsonResearchSoft.EndNote</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.EndNote.payload</string>
+			<key>PayloadUUID</key>
+			<string>B9B3F593-008E-51CC-87D9-57D5F7A354A8</string>
+			<key>PayloadDisplayName</key>
+			<string>EndNote</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>FE10FFDD-EDBB-53A7-9AF1-FD447896AF5F</string>
+	<key>PayloadDisplayName</key>
+	<string>EndNote</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.EndNote</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The Unarchiver (Standalone) settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>userAgreedToNewTOSAndPrivacy</key>
+			<false/>
+			<key>SUEnableAutomaticChecks</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.macpaw.site.theunarchiver</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.theunarchiver.payload</string>
+			<key>PayloadUUID</key>
+			<string>787DF69B-A320-5093-B03E-89319B16D33A</string>
+			<key>PayloadDisplayName</key>
+			<string>The Unarchiver (Standalone)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6AF78B9E-39E8-5D1C-A642-12D00DB559A5</string>
+	<key>PayloadDisplayName</key>
+	<string>The Unarchiver (Standalone)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.theunarchiver</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Docker Desktop</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>allowedOrgs</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.docker.config</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.config.payload</string>
+			<key>PayloadUUID</key>
+			<string>C473FDD9-A3D4-5197-B49F-3381DFBAC9D2</string>
+			<key>PayloadDisplayName</key>
+			<string>Docker Desktop</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>96312466-BD66-5A80-99F3-F33C379C14F0</string>
+	<key>PayloadDisplayName</key>
+	<string>Docker Desktop</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.config</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

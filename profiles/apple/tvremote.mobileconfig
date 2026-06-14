@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the Apple TV remote.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowedRemotes</key>
+			<array/>
+			<key>AllowedTVs</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.tvremote</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.tvremote.payload</string>
+			<key>PayloadUUID</key>
+			<string>A00F1936-3142-5097-9536-062E58AAD98D</string>
+			<key>PayloadDisplayName</key>
+			<string>TV Remote</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>5E52D616-3B48-561D-8DDA-9FB57338AEBE</string>
+	<key>PayloadDisplayName</key>
+	<string>TV Remote</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.tvremote</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

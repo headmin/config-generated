@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Time Machine settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DoNotOfferNewDisksForBackup</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.TimeMachine</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.TimeMachine.payload</string>
+			<key>PayloadUUID</key>
+			<string>DFE2CFEB-D767-57FB-B0B6-C48B0BD70B5E</string>
+			<key>PayloadDisplayName</key>
+			<string>Time Machine</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>13917246-5F44-5ADD-9A4E-C05C9FA1A743</string>
+	<key>PayloadDisplayName</key>
+	<string>Time Machine</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.TimeMachine</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

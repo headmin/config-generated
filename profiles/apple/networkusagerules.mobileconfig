@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures network-usage rules.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ApplicationRules</key>
+			<array/>
+			<key>SIMRules</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.networkusagerules</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.networkusagerules.payload</string>
+			<key>PayloadUUID</key>
+			<string>A9067614-186C-53E6-A2A9-B78B5719C82D</string>
+			<key>PayloadDisplayName</key>
+			<string>Network Usage Rules</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>68519DEC-E516-5F03-AAE1-41AD4FFE363A</string>
+	<key>PayloadDisplayName</key>
+	<string>Network Usage Rules</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.networkusagerules</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

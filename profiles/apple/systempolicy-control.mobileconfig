@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the system policy for assessments.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EnableAssessment</key>
+			<false/>
+			<key>AllowIdentifiedDevelopers</key>
+			<false/>
+			<key>EnableXProtectMalwareUpload</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.systempolicy.control</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.control.payload</string>
+			<key>PayloadUUID</key>
+			<string>9636FFEE-479E-56B6-8088-F274240C69CF</string>
+			<key>PayloadDisplayName</key>
+			<string>System Policy Control</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E565CF1B-63E6-592C-A975-9B5377EADEAC</string>
+	<key>PayloadDisplayName</key>
+	<string>System Policy Control</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.control</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Alectrona Patch Command Line Tool settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>License</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.alectrona.patch</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.patch.payload</string>
+			<key>PayloadUUID</key>
+			<string>7174EE02-A53D-570C-A482-553A711DBDAE</string>
+			<key>PayloadDisplayName</key>
+			<string>Alectrona Patch Command Line Tool</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>50001173-0B9B-5371-83C4-82737D03719B</string>
+	<key>PayloadDisplayName</key>
+	<string>Alectrona Patch Command Line Tool</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.patch</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

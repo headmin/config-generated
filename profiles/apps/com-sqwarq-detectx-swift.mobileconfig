@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>DetectX Swift settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>BrandedText</key>
+			<string></string>
+			<key>ignoreKeywords</key>
+			<false/>
+			<key>FobWhitelist</key>
+			<array/>
+			<key>folderObserver</key>
+			<integer>0</integer>
+			<key>ObserverButton</key>
+			<string></string>
+			<key>ObserverIcon</key>
+			<string></string>
+			<key>ObserverMessage</key>
+			<string></string>
+			<key>ObserverTitle</key>
+			<string></string>
+			<key>VisualUpdates</key>
+			<integer>0</integer>
+			<key>whitelist</key>
+			<array/>
+			<key>SUFeedURL</key>
+			<string></string>
+			<key>SUEnableAutomaticChecks</key>
+			<true/>
+			<key>SUScheduledCheckInterval</key>
+			<integer>86400</integer>
+			<key>SUAllowsAutomaticUpdates</key>
+			<true/>
+			<key>SUAutomaticallyUpdate</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.sqwarq.DetectX-Swift</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.DetectX-Swift.payload</string>
+			<key>PayloadUUID</key>
+			<string>CB75CCF2-5BFC-5F4E-843C-21238EA1FB2F</string>
+			<key>PayloadDisplayName</key>
+			<string>DetectX Swift</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>84BEC8A3-13ED-5E9C-942F-237DAFAE39C8</string>
+	<key>PayloadDisplayName</key>
+	<string>DetectX Swift</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.DetectX-Swift</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

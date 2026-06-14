@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Grammarly Desktop</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>GrammarlyEnrollmentToken</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.grammarly.ProjectLlama</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ProjectLlama.payload</string>
+			<key>PayloadUUID</key>
+			<string>59F4A524-0CEC-5FD0-A020-3F3EC22DD06B</string>
+			<key>PayloadDisplayName</key>
+			<string>Grammarly</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1DCCEB15-761D-5BA4-9212-A0BC4BE31EF0</string>
+	<key>PayloadDisplayName</key>
+	<string>Grammarly</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ProjectLlama</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

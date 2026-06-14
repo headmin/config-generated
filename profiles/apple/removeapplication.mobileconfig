@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Remove an app.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>RemoveApplication</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.RemoveApplication.payload</string>
+			<key>PayloadUUID</key>
+			<string>6B349C5F-890A-52ED-AB2C-B250B88E6337</string>
+			<key>PayloadDisplayName</key>
+			<string>Remove Application Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>AF6BACBE-E04B-5834-A90C-CCEF88D3B7E6</string>
+	<key>PayloadDisplayName</key>
+	<string>Remove Application Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.RemoveApplication</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures associated domains.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Configuration</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.associated-domains</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.associated-domains.payload</string>
+			<key>PayloadUUID</key>
+			<string>15EB7482-1A38-5538-A3ED-588ACB33F95B</string>
+			<key>PayloadDisplayName</key>
+			<string>Associated Domains</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1E9D90D4-BC10-5B8C-9259-7B434DC847D8</string>
+	<key>PayloadDisplayName</key>
+	<string>Associated Domains</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.associated-domains</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

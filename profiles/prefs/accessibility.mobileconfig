@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Accessibility preference domain for macOS.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ReduceTransparencyEnabled</key>
+			<false/>
+			<key>IncreaseContrastEnabled</key>
+			<false/>
+			<key>ReduceMotionEnabled</key>
+			<false/>
+			<key>DifferentiateWithoutColor</key>
+			<false/>
+			<key>EnhancedBackgroundContrastEnabled</key>
+			<false/>
+			<key>KeyRepeatEnabled</key>
+			<false/>
+			<key>KeyRepeatDelay</key>
+			<real>0</real>
+			<key>KeyRepeatInterval</key>
+			<real>0</real>
+			<key>PayloadType</key>
+			<string>com.apple.Accessibility</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Accessibility.payload</string>
+			<key>PayloadUUID</key>
+			<string>67DA3277-9325-5371-B48B-EBD5B9E71EDF</string>
+			<key>PayloadDisplayName</key>
+			<string>Accessibility</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>50F4F461-594B-5F0A-AD3B-86F9E292BF28</string>
+	<key>PayloadDisplayName</key>
+	<string>Accessibility</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Accessibility</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

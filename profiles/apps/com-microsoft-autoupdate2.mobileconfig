@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Microsoft AutoUpdate settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AcknowledgedDataCollectionPolicy</key>
+			<string>&quot;RequiredDataOnly&quot;</string>
+			<key>ChannelName</key>
+			<string>&quot;Production&quot;</string>
+			<key>DisableInsiderCheckbox</key>
+			<false/>
+			<key>EnableCheckForUpdatesButton</key>
+			<true/>
+			<key>ExtendedLogging</key>
+			<false/>
+			<key>HowToCheck</key>
+			<string>&quot;AutomaticCheck&quot;</string>
+			<key>ManifestServer</key>
+			<string></string>
+			<key>SendAllTelemetryEnabled</key>
+			<false/>
+			<key>StartDaemonOnAppLaunch</key>
+			<true/>
+			<key>IgnoreUIOpenAfterInstall</key>
+			<false/>
+			<key>DisableOptInNotification</key>
+			<false/>
+			<key>UpdateCache</key>
+			<string></string>
+			<key>UpdateCheckInterval</key>
+			<integer>780</integer>
+			<key>UpdateCheckFrequency</key>
+			<integer>720</integer>
+			<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+			<integer>0</integer>
+			<key>UpdateDeadline.FinalCountDown</key>
+			<integer>60</integer>
+			<key>UpdateDeadline.StartAutomaticUpdates</key>
+			<integer>3</integer>
+			<key>UpdaterOptimization</key>
+			<string>&quot;Size&quot;</string>
+			<key>OptionalUpdatesDeferralsDays</key>
+			<integer>0</integer>
+			<key>OptionalUpdatesDeferrals</key>
+			<dict>
+				<key>DeferralDays</key>
+				<dict>
+					<key>{{key}}</key>
+					<string></string>
+					<key>{{value}}</key>
+					<integer>0</integer>
+				</dict>
+				<key>DeferralVersions</key>
+				<dict>
+					<key>{{key}}</key>
+					<string></string>
+					<key>{{value}}</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Applications</key>
+			<dict>
+				<key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+				</dict>
+			</dict>
+			<key>UpdateDeadline.ApplicationsForcedUpdateSchedule</key>
+			<dict>
+				<key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft Defender ATP.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft Edge.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft Excel.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft OneNote.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft Outlook.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft PowerPoint.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Windows App.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft Remote Desktop.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft Teams.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Microsoft Word.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Company Portal.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/OneDrive.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+				<key>/Applications/Skype for Business.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>&quot;MSau04&quot;</string>
+					<key>ForcedUpdateDate</key>
+					<string></string>
+					<key>ForcedUpdateVersion</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.microsoft.autoupdate2</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.autoupdate2.payload</string>
+			<key>PayloadUUID</key>
+			<string>8D508EF0-137C-5B83-AFEE-3E27E01FF08D</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft AutoUpdate</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>B4C3EE1D-EF06-52F1-89B2-0C22C820CA44</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft AutoUpdate</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.autoupdate2</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Complete the installation of an app using a redemption code.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string></string>
+			<key>RedemptionCode</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>ApplyRedemptionCode</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ApplyRedemptionCode.payload</string>
+			<key>PayloadUUID</key>
+			<string>293454FB-89BC-5BE0-9A3C-714FFA629481</string>
+			<key>PayloadDisplayName</key>
+			<string>Apply Redemption Code Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>4548EAF9-7E18-51ED-91DF-4F9791C8DBE9</string>
+	<key>PayloadDisplayName</key>
+	<string>Apply Redemption Code Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ApplyRedemptionCode</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

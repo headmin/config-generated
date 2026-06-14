@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Cloudflare WARP</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>display_name</key>
+			<string></string>
+			<key>organization</key>
+			<string></string>
+			<key>gateway_unique_id</key>
+			<string></string>
+			<key>service_mode</key>
+			<string>&quot;warp&quot;</string>
+			<key>onboarding</key>
+			<true/>
+			<key>switch_locked</key>
+			<false/>
+			<key>auto_connect</key>
+			<integer>0</integer>
+			<key>support_url</key>
+			<string></string>
+			<key>override_api_endpoint</key>
+			<string></string>
+			<key>override_doh_endpoint</key>
+			<string></string>
+			<key>override_warp_endpoint</key>
+			<string></string>
+			<key>unique_client_id</key>
+			<string></string>
+			<key>auth_client_id</key>
+			<string></string>
+			<key>auth_client_secret</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.cloudflare.warp</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.warp.payload</string>
+			<key>PayloadUUID</key>
+			<string>3E555B6A-E8A5-599A-A907-42CD5AC15A93</string>
+			<key>PayloadDisplayName</key>
+			<string>Cloudflare WARP Client</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>A9EB81E7-4E40-57D6-B10A-407DC34B611B</string>
+	<key>PayloadDisplayName</key>
+	<string>Cloudflare WARP Client</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.warp</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

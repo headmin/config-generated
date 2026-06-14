@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures certificate revocation checking.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EnabledForCerts</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.security.certificaterevocation</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.certificaterevocation.payload</string>
+			<key>PayloadUUID</key>
+			<string>85CB785A-2613-50B5-9527-A3911F05B40F</string>
+			<key>PayloadDisplayName</key>
+			<string>Certificate Revocation</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>BE1C3EB6-5E3C-529A-A425-F130B29C467C</string>
+	<key>PayloadDisplayName</key>
+	<string>Certificate Revocation</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.certificaterevocation</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

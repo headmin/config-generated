@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Microsoft PowerPoint settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NSRequiresAquaSystemAppearance</key>
+			<false/>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<false/>
+			<key>SendASmileEnabled</key>
+			<true/>
+			<key>SendAllTelemetryEnabled</key>
+			<true/>
+			<key>SendCrashReportsEvenWithTelemetryDisabled</key>
+			<false/>
+			<key>SignInOptions</key>
+			<integer>0</integer>
+			<key>kFRETelemetryConsentKey</key>
+			<false/>
+			<key>kFREEnterpriseTelemetryInfoKey</key>
+			<false/>
+			<key>kFREIntelligenceServicesConsentV2Key</key>
+			<false/>
+			<key>PII_And_Intelligent_Services_Preference</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.microsoft.Powerpoint</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Powerpoint.payload</string>
+			<key>PayloadUUID</key>
+			<string>4D10B2CD-9A7B-59DA-952F-1750471B3B23</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft PowerPoint</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>89A1F5E0-82CB-5E48-A4EE-8704E3D73673</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft PowerPoint</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Powerpoint</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

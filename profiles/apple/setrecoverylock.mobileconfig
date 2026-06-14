@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Set or clear the Recovery Lock password.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>CurrentPassword</key>
+			<string></string>
+			<key>NewPassword</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>SetRecoveryLock</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.SetRecoveryLock.payload</string>
+			<key>PayloadUUID</key>
+			<string>055F84E6-9F1A-5D45-81E1-B58F01259577</string>
+			<key>PayloadDisplayName</key>
+			<string>Set Recovery Lock Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>7D931F7E-8B79-5E12-B1BA-BC829665EA70</string>
+	<key>PayloadDisplayName</key>
+	<string>Set Recovery Lock Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.SetRecoveryLock</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

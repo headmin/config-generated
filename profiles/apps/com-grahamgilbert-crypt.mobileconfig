@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Crypt settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ServerURL</key>
+			<string></string>
+			<key>RemovePlist</key>
+			<true/>
+			<key>RotateUsedKey</key>
+			<true/>
+			<key>ValidateKey</key>
+			<true/>
+			<key>OutputPath</key>
+			<string>&quot;/var/root/crypt_output.plist&quot;</string>
+			<key>KeyEscrowInterval</key>
+			<integer>1</integer>
+			<key>SkipUsers</key>
+			<array/>
+			<key>PostRunCommand</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.grahamgilbert.crypt</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.crypt.payload</string>
+			<key>PayloadUUID</key>
+			<string>C845F2FB-5DC0-5E00-9C05-35A5BA5F66A0</string>
+			<key>PayloadDisplayName</key>
+			<string>Crypt</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>77420D38-AF96-5023-A320-0EC6294AF8A4</string>
+	<key>PayloadDisplayName</key>
+	<string>Crypt</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.crypt</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

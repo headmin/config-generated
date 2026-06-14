@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures lights-out management (LOM) settings.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DeviceCertificateUUID</key>
+			<string></string>
+			<key>ControllerCertificateUUID</key>
+			<string></string>
+			<key>DeviceCACertificateUUIDs</key>
+			<array/>
+			<key>ControllerCACertificateUUIDs</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.lom</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.lom.payload</string>
+			<key>PayloadUUID</key>
+			<string>995E0F6A-7E56-5FD1-A6F1-0B001D51AC31</string>
+			<key>PayloadDisplayName</key>
+			<string>Lights Out Management (LOM)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C6B90824-2E68-53F1-AF23-1F50BDF7F998</string>
+	<key>PayloadDisplayName</key>
+	<string>Lights Out Management (LOM)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.lom</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

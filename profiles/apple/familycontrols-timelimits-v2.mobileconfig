@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures parental control time limits.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>familyControlsEnabled</key>
+			<false/>
+			<key>time-limits</key>
+			<dict>
+				<key>weekday-allowance</key>
+				<dict>
+					<key>enabled</key>
+					<false/>
+					<key>rangeType</key>
+					<integer>0</integer>
+					<key>start</key>
+					<string></string>
+					<key>end</key>
+					<string></string>
+					<key>secondsPerDay</key>
+					<integer>0</integer>
+				</dict>
+				<key>weekday-curfew</key>
+				<dict/>
+				<key>weekend-allowance</key>
+				<dict/>
+				<key>weekend-curfew</key>
+				<dict/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.familycontrols.timelimits.v2</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.v2.payload</string>
+			<key>PayloadUUID</key>
+			<string>5A24688E-3567-5D43-A228-6CC2111CBBAD</string>
+			<key>PayloadDisplayName</key>
+			<string>Parental Controls: Time Limits</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>CBFDB437-F32A-560F-AF7C-9F093A0DBCD6</string>
+	<key>PayloadDisplayName</key>
+	<string>Parental Controls: Time Limits</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.v2</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

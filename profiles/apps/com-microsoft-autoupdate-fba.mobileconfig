@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Microsoft AutoUpdate FBA for Mac</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>SendAllTelemetryEnabled</key>
+			<true/>
+			<key>PayloadType</key>
+			<string>com.microsoft.autoupdate.fba</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.fba.payload</string>
+			<key>PayloadUUID</key>
+			<string>13006669-1F75-5145-834C-51FAC92C0807</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft AutoUpdate FBA</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>2B03C4DD-5885-569E-975C-34CA2C6DBD7F</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft AutoUpdate FBA</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.fba</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

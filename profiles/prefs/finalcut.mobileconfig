@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Final Cut Pro settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>LKWelcomeDisplayedForAppVersion</key>
+			<dict>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<true/>
+			</dict>
+			<key>LKWhatsNewDisplayedForAppVersion</key>
+			<dict>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<true/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.FinalCut</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.FinalCut.payload</string>
+			<key>PayloadUUID</key>
+			<string>E3FE4657-7F6E-5B6F-97B1-ED76B7182264</string>
+			<key>PayloadDisplayName</key>
+			<string>Final Cut Pro</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>06169F87-0263-5E47-BBCD-2DBC1781D417</string>
+	<key>PayloadDisplayName</key>
+	<string>Final Cut Pro</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.FinalCut</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

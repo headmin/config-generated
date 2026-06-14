@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Assistant (Siri) settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Assistant Enabled</key>
+			<false/>
+			<key>Siri Data Sharing Opt-In Status</key>
+			<integer>0</integer>
+			<key>Search Queries Data Sharing Status</key>
+			<integer>0</integer>
+			<key>PayloadType</key>
+			<string>com.apple.assistant.support</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.support.payload</string>
+			<key>PayloadUUID</key>
+			<string>15A552C7-BD00-5D8A-A248-9EE7675C390F</string>
+			<key>PayloadDisplayName</key>
+			<string>Assistant (Siri)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>3CCC5969-3092-5C71-96F4-0AB12677E79B</string>
+	<key>PayloadDisplayName</key>
+	<string>Assistant (Siri)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.support</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

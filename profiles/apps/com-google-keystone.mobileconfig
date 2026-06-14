@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Google Software Update Settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>updatePolicies</key>
+			<dict>
+				<key>global</key>
+				<dict>
+					<key>UpdateDefault</key>
+					<integer>0</integer>
+					<key>UpdatesSupressedStartHour</key>
+					<integer>0</integer>
+					<key>UpdatesSupressedStartMinute</key>
+					<integer>0</integer>
+					<key>UpdatesSupressedDurationMin</key>
+					<integer>0</integer>
+					<key>ComponentUpdatesEnabled</key>
+					<false/>
+					<key>DownloadPreference</key>
+					<string></string>
+				</dict>
+				<key>com.google.Chrome</key>
+				<dict>
+					<key>UpdateDefault</key>
+					<integer>0</integer>
+					<key>TargetVersionPrefix</key>
+					<string></string>
+					<key>TargetChannel</key>
+					<string>&quot;stable&quot;</string>
+				</dict>
+				<key>com.google.drivefs</key>
+				<dict>
+					<key>UpdateDefault</key>
+					<integer>0</integer>
+					<key>TargetVersionPrefix</key>
+					<string></string>
+				</dict>
+				<key>com.google.chat</key>
+				<dict>
+					<key>UpdateDefault</key>
+					<integer>0</integer>
+					<key>TargetVersionPrefix</key>
+					<string></string>
+				</dict>
+				<key>com.google.GoogleDrive</key>
+				<dict>
+					<key>UpdateDefault</key>
+					<integer>0</integer>
+					<key>TargetVersionPrefix</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.google.Keystone</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Keystone.payload</string>
+			<key>PayloadUUID</key>
+			<string>A26B3E0D-3AED-530B-AE1E-ED2D9C0E37F2</string>
+			<key>PayloadDisplayName</key>
+			<string>Google Software Updates</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E1C9465A-0788-542D-B9F5-1E9E510553C1</string>
+	<key>PayloadDisplayName</key>
+	<string>Google Software Updates</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Keystone</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

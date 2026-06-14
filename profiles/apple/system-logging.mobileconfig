@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures system logging.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Processes</key>
+			<dict>
+				<key>ANY</key>
+				<string></string>
+			</dict>
+			<key>Subsystems</key>
+			<dict/>
+			<key>System</key>
+			<dict>
+				<key>Enable-Private-Data</key>
+				<false/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.logging.payload</string>
+			<key>PayloadUUID</key>
+			<string>317632B2-6D3C-557E-BD8B-3FE1C93D7A52</string>
+			<key>PayloadDisplayName</key>
+			<string>System Logging</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6EC0E1E5-D464-5D6E-9F42-C0BD91FEDCEB</string>
+	<key>PayloadDisplayName</key>
+	<string>System Logging</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.logging</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

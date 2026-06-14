@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>macOS LAPS settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>LocalAdminAccount</key>
+			<string>&quot;admin&quot;</string>
+			<key>DaysTillExpiration</key>
+			<integer>60</integer>
+			<key>PasswordLength</key>
+			<integer>12</integer>
+			<key>PasswordGrouping</key>
+			<integer>0</integer>
+			<key>PasswordSeparator</key>
+			<string>&quot;-&quot;</string>
+			<key>RemoveKeyChain</key>
+			<true/>
+			<key>RemovePassChars</key>
+			<string></string>
+			<key>ExclusionSets</key>
+			<array/>
+			<key>Method</key>
+			<string>&quot;AD&quot;</string>
+			<key>PreferredDC</key>
+			<string></string>
+			<key>FirstPass</key>
+			<string></string>
+			<key>PasswordRequirements</key>
+			<dict>
+				<key>Lowercase</key>
+				<integer>0</integer>
+				<key>Uppercase</key>
+				<integer>0</integer>
+				<key>Number</key>
+				<integer>0</integer>
+				<key>Symbol</key>
+				<integer>0</integer>
+			</dict>
+			<key>PayloadType</key>
+			<string>edu.psu.macoslaps</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.macoslaps.payload</string>
+			<key>PayloadUUID</key>
+			<string>44ED3AC3-BB87-5513-B08B-1062FB19EFFD</string>
+			<key>PayloadDisplayName</key>
+			<string>macOS LAPS</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>B0D3C90F-4B6A-5E27-94C7-E21BBB8D6575</string>
+	<key>PayloadDisplayName</key>
+	<string>macOS LAPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.macoslaps</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Settings for the Notion desktop app for macOS</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotionNoAutoUpdates</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>notion.id</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.id.payload</string>
+			<key>PayloadUUID</key>
+			<string>83536334-B41A-56A3-9978-1BDE2132707A</string>
+			<key>PayloadDisplayName</key>
+			<string>Notion</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1D201F7D-F03D-587F-B169-7B155B82A1AB</string>
+	<key>PayloadDisplayName</key>
+	<string>Notion</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.id</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

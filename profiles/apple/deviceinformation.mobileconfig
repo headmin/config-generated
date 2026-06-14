@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Get detailed information about a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Queries</key>
+			<string></string>
+			<key>DeviceAttestationNonce</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>DeviceInformation</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.DeviceInformation.payload</string>
+			<key>PayloadUUID</key>
+			<string>4C250D6F-2A52-5465-BBB8-4329EECF88EA</string>
+			<key>PayloadDisplayName</key>
+			<string>Device Information Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>B383B0AD-5A85-50BE-8458-6711C980C0C9</string>
+	<key>PayloadDisplayName</key>
+	<string>Device Information Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.DeviceInformation</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

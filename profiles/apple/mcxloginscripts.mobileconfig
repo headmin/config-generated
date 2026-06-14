@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures scripts to run at login and logout.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>loginscripts</key>
+			<array/>
+			<key>logoutscripts</key>
+			<array/>
+			<key>skipLoginHook</key>
+			<false/>
+			<key>skipLogoutHook</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.mcxloginscripts</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.mcxloginscripts.payload</string>
+			<key>PayloadUUID</key>
+			<string>7F6FA79C-C3B6-5C3F-8A6E-FED66D8A3316</string>
+			<key>PayloadDisplayName</key>
+			<string>Login Window: Scripts</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>2699F914-1CB3-56E0-B39D-E815679229D3</string>
+	<key>PayloadDisplayName</key>
+	<string>Login Window: Scripts</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.mcxloginscripts</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

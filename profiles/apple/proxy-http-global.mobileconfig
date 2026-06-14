@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures a global HTTP proxy.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ProxyType</key>
+			<string>&quot;Manual&quot;</string>
+			<key>ProxyServer</key>
+			<string></string>
+			<key>ProxyServerPort</key>
+			<integer>0</integer>
+			<key>ProxyUsername</key>
+			<string></string>
+			<key>ProxyPassword</key>
+			<string></string>
+			<key>ProxyPACURL</key>
+			<string></string>
+			<key>ProxyPACFallbackAllowed</key>
+			<false/>
+			<key>ProxyCaptiveLoginAllowed</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.global.payload</string>
+			<key>PayloadUUID</key>
+			<string>9152CB69-C531-5C46-80C5-826DCED77390</string>
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>EC18283E-1539-5D21-92D6-5792859C620C</string>
+	<key>PayloadDisplayName</key>
+	<string>Global HTTP Proxy</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.global</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

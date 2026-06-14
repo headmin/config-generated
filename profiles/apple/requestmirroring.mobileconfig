@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Prompt the user to share their screen using AirPlay Mirroring.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DestinationName</key>
+			<string></string>
+			<key>DestinationDeviceID</key>
+			<string></string>
+			<key>ScanTime</key>
+			<string></string>
+			<key>Password</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>RequestMirroring</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.RequestMirroring.payload</string>
+			<key>PayloadUUID</key>
+			<string>74A6CE79-C05E-55DF-ABD9-6FD2692CA3A5</string>
+			<key>PayloadDisplayName</key>
+			<string>Request Mirroring Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1EB4BE02-E47C-5F4C-9BB4-4873711E42BD</string>
+	<key>PayloadDisplayName</key>
+	<string>Request Mirroring Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.RequestMirroring</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

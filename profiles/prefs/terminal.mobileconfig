@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Terminal.app preference domain for macOS.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>SecureKeyboardEntry</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.Terminal</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Terminal.payload</string>
+			<key>PayloadUUID</key>
+			<string>2BB066B4-6DCF-5D73-B007-DB3C6067DA4B</string>
+			<key>PayloadDisplayName</key>
+			<string>Terminal</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C07D27CE-EABB-5C16-9E93-3BDAB15E2D80</string>
+	<key>PayloadDisplayName</key>
+	<string>Terminal</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Terminal</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

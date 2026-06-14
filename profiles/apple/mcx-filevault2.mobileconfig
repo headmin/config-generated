@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures FileVault.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Enable</key>
+			<string></string>
+			<key>Defer</key>
+			<false/>
+			<key>UserEntersMissingInfo</key>
+			<false/>
+			<key>UseRecoveryKey</key>
+			<true/>
+			<key>ShowRecoveryKey</key>
+			<true/>
+			<key>OutputPath</key>
+			<string></string>
+			<key>Certificate</key>
+			<data>
+			</data>
+			<key>PayloadCertificateUUID</key>
+			<string></string>
+			<key>Username</key>
+			<string></string>
+			<key>Password</key>
+			<string></string>
+			<key>UseKeychain</key>
+			<false/>
+			<key>DeferForceAtUserLoginMaxBypassAttempts</key>
+			<integer>0</integer>
+			<key>DeferDontAskAtUserLogout</key>
+			<false/>
+			<key>ForceEnableInSetupAssistant</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.MCX.FileVault2</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.FileVault2.payload</string>
+			<key>PayloadUUID</key>
+			<string>A632351E-C650-5C75-931D-56C9A84C7B9E</string>
+			<key>PayloadDisplayName</key>
+			<string>FDE FileVault</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>2086A266-8F05-5CD2-AE0A-1C4273CF03FB</string>
+	<key>PayloadDisplayName</key>
+	<string>FDE FileVault</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.FileVault2</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

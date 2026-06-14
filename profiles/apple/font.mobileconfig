@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures fonts.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>&quot;&quot;</string>
+			<key>Font</key>
+			<data>
+			</data>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.font.payload</string>
+			<key>PayloadUUID</key>
+			<string>0F197D89-EAC2-5F5C-A4ED-3FE92F315B2A</string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6F59EFB1-2408-59C3-8723-E0B358BC0B6D</string>
+	<key>PayloadDisplayName</key>
+	<string>Font</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.font</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

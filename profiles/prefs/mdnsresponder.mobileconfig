@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Bonjour Settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NoMulticastAdvertisements</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.mDNSResponder</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.mDNSResponder.payload</string>
+			<key>PayloadUUID</key>
+			<string>928AF5A1-84A8-5914-A775-6C5AA9DFA87F</string>
+			<key>PayloadDisplayName</key>
+			<string>Bonjour</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E39C9A8A-6426-5C35-B0F2-DA8DB0346FAF</string>
+	<key>PayloadDisplayName</key>
+	<string>Bonjour</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.mDNSResponder</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Pinpoint settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>YOUR_API_KEY</key>
+			<string></string>
+			<key>USE_GEOCODE</key>
+			<true/>
+			<key>USE_ALTITUDE</key>
+			<false/>
+			<key>OPTIMISE</key>
+			<true/>
+			<key>DEBUG</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.jelockwood.pinpoint</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.pinpoint.payload</string>
+			<key>PayloadUUID</key>
+			<string>BB0F040E-A2C2-5551-A937-1CD5CE38FBD1</string>
+			<key>PayloadDisplayName</key>
+			<string>Pinpoint</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>AF7B2B5F-D0A1-5870-B5A4-E1730A71E80C</string>
+	<key>PayloadDisplayName</key>
+	<string>Pinpoint</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.pinpoint</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

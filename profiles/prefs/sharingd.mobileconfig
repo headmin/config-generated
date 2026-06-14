@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>macOS AirDrop Discoverability Settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DiscoverableMode</key>
+			<string>&quot;Off&quot;</string>
+			<key>PayloadType</key>
+			<string>com.apple.sharingd</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.sharingd.payload</string>
+			<key>PayloadUUID</key>
+			<string>F21535D1-8C4F-55CC-9D06-9CAF565B6BA2</string>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop Discoverability (macOS)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>0A056ED0-7A33-5851-BCB9-53D6994C7BF0</string>
+	<key>PayloadDisplayName</key>
+	<string>AirDrop Discoverability (macOS)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.sharingd</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

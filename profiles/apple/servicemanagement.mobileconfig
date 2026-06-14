@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>This payload that configures managed login items, which auto-enables and auto-allows matched items.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Rules</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.servicemanagement</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.servicemanagement.payload</string>
+			<key>PayloadUUID</key>
+			<string>97FE083F-9411-5815-90A0-89DD8C717AC8</string>
+			<key>PayloadDisplayName</key>
+			<string>Service Management - Managed Login Items</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>CF2FE385-1276-53DE-9FAF-D430D37FA2C8</string>
+	<key>PayloadDisplayName</key>
+	<string>Service Management - Managed Login Items</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.servicemanagement</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

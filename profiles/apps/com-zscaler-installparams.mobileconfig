@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Zscaler Client Connector</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>installation-parameters</key>
+			<dict>
+				<key>cloudName</key>
+				<string></string>
+				<key>deviceToken</key>
+				<string></string>
+				<key>hideAppUIOnLaunch</key>
+				<string></string>
+				<key>launchTray</key>
+				<string></string>
+				<key>policyToken</key>
+				<string></string>
+				<key>strictEnforcement</key>
+				<string></string>
+				<key>userDomain</key>
+				<string></string>
+				<key>externalRedirect</key>
+				<string></string>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.zscaler.installparams</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.installparams.payload</string>
+			<key>PayloadUUID</key>
+			<string>EFF73AE7-4247-5333-9429-97287B49EB43</string>
+			<key>PayloadDisplayName</key>
+			<string>Zscaler Client Connector</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>0A722FBE-7B88-530D-8059-5B1965BB0B4F</string>
+	<key>PayloadDisplayName</key>
+	<string>Zscaler Client Connector</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.installparams</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

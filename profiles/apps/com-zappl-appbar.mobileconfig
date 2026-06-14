@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>AppBar is Zappl&apos;s companion Menu Bar app, developed by DARE Technology.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>&quot;AppBar&quot;</string>
+			<key>TitleFontSize</key>
+			<integer>22</integer>
+			<key>CustomLogo</key>
+			<string>&quot;app.badge.fill&quot;</string>
+			<key>CustomLogoDark</key>
+			<string>&quot;app.badge.fill&quot;</string>
+			<key>NotificationIcon</key>
+			<string></string>
+			<key>MenuBarIcon</key>
+			<string>&quot;square.and.arrow.down.on.square&quot;</string>
+			<key>AccentColor</key>
+			<string></string>
+			<key>InstallsTabEnabled</key>
+			<false/>
+			<key>HistoryTabEnabled</key>
+			<true/>
+			<key>LiquidGlassEnabled</key>
+			<true/>
+			<key>AllowUpdateNotifications</key>
+			<true/>
+			<key>AllowInstallNotifications</key>
+			<true/>
+			<key>AllowFailureNotifications</key>
+			<true/>
+			<key>EnableQuitButton</key>
+			<true/>
+			<key>EnableAboutButton</key>
+			<true/>
+			<key>CustomCategories</key>
+			<array/>
+			<key>CustomDescriptions</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.zappl.AppBar</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.AppBar.payload</string>
+			<key>PayloadUUID</key>
+			<string>4B6303DF-74C8-5D05-A47C-F3BCD65546B8</string>
+			<key>PayloadDisplayName</key>
+			<string>Zappl AppBar</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>8A27FEAC-DEA2-5E89-836C-5A4D8E9130B7</string>
+	<key>PayloadDisplayName</key>
+	<string>Zappl AppBar</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.AppBar</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

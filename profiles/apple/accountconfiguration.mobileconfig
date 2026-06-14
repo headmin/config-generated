@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Create and configure a local administrator account on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>SkipPrimarySetupAccountCreation</key>
+			<string>false</string>
+			<key>SetPrimarySetupAccountAsRegularUser</key>
+			<string>false</string>
+			<key>PrimaryAccountFullName</key>
+			<string></string>
+			<key>PrimaryAccountUserName</key>
+			<string></string>
+			<key>DontAutoPopulatePrimaryAccountInfo</key>
+			<string>false</string>
+			<key>LockPrimaryAccountInfo</key>
+			<string>false</string>
+			<key>AutoSetupAdminAccounts</key>
+			<string></string>
+			<key>ManagedLocalUserShortName</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>AccountConfiguration</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.AccountConfiguration.payload</string>
+			<key>PayloadUUID</key>
+			<string>7FBD924B-C987-511F-A424-FAE83B7AD513</string>
+			<key>PayloadDisplayName</key>
+			<string>Account Configuration Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1090AFEF-D82F-5B44-9F00-71E015C22DF3</string>
+	<key>PayloadDisplayName</key>
+	<string>Account Configuration Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.AccountConfiguration</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

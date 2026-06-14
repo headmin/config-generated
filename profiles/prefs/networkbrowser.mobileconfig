@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>macOS AirDrop Settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DisableAirDrop</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.NetworkBrowser</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.NetworkBrowser.payload</string>
+			<key>PayloadUUID</key>
+			<string>AF5D5823-FE63-5177-A253-6B27A5291176</string>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop (macOS)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>2C7482C4-0BF0-5370-A124-C1D25487C650</string>
+	<key>PayloadDisplayName</key>
+	<string>AirDrop (macOS)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.NetworkBrowser</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

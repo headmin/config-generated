@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that provides device info on private network deployments, including geographical location, preference over Wi-Fi, and network deployment type.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Geofences</key>
+			<array/>
+			<key>DataSetName</key>
+			<string></string>
+			<key>VersionNumber</key>
+			<string></string>
+			<key>CellularDataPreferred</key>
+			<false/>
+			<key>EnableNRStandalone</key>
+			<false/>
+			<key>NetworkIdentifier</key>
+			<string></string>
+			<key>CsgNetworkIdentifier</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.cellularprivatenetwork.managed</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.managed.payload</string>
+			<key>PayloadUUID</key>
+			<string>75A016A9-ADC9-5257-9AB6-A44DF8414DC5</string>
+			<key>PayloadDisplayName</key>
+			<string>Cellular Private Network</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>31A735D9-3545-5B36-93D5-42AFD3AB1314</string>
+	<key>PayloadDisplayName</key>
+	<string>Cellular Private Network</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.managed</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

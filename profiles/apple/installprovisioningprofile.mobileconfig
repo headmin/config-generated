@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Install a provisioning profile on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ProvisioningProfile</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>InstallProvisioningProfile</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.InstallProvisioningProfile.payload</string>
+			<key>PayloadUUID</key>
+			<string>A37CB637-CF11-5DA8-BBC2-84FC16F07F13</string>
+			<key>PayloadDisplayName</key>
+			<string>Install Provisioning Profile Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>BBDA62F1-3133-53D9-AFDD-8AB7D2D312E8</string>
+	<key>PayloadDisplayName</key>
+	<string>Install Provisioning Profile Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.InstallProvisioningProfile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

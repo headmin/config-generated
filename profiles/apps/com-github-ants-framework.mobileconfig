@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>ANTS Framework settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>main</key>
+			<dict>
+				<key>git_repository</key>
+				<string>&quot;https://github.com/ANTS-Framework/playbook.git&quot;</string>
+				<key>branch</key>
+				<string>&quot;master&quot;</string>
+				<key>ssh_key</key>
+				<string>&quot;/etc/ants/id_ants&quot;</string>
+				<key>destination</key>
+				<string>&quot;~root/.ants_playbook&quot;</string>
+				<key>inventory_script</key>
+				<string>&quot;inventory_default&quot;</string>
+				<key>wait_interval</key>
+				<integer>900</integer>
+				<key>ansible_playbook</key>
+				<string>&quot;main.yml&quot;</string>
+				<key>log_dir</key>
+				<string>&quot;/var/log/ants&quot;</string>
+				<key>ssh_stricthostkeychecking</key>
+				<false/>
+				<key>ansible_pull_exe</key>
+				<string>&quot;&quot;</string>
+				<key>tags</key>
+				<string>&quot;&quot;</string>
+				<key>skip_tags</key>
+				<string>&quot;&quot;</string>
+			</dict>
+			<key>ad</key>
+			<dict>
+				<key>ldap_user</key>
+				<string>&quot;ldap\\changeme&quot;</string>
+				<key>ldap_pw</key>
+				<string>&quot;changeme&quot;</string>
+				<key>ldap_host</key>
+				<string>&quot;LDAP.PRETENDCORP.COM&quot;</string>
+				<key>ldap_ou_computers</key>
+				<string>&quot;DC=ldap,DC=pretendcorp,DC=com&quot;</string>
+				<key>ldap_ou_groups</key>
+				<string>&quot;OU=ants,OU=Groups,DC=ldap,DC=pretendcorp,DC=com&quot;</string>
+				<key>cache_file</key>
+				<string>&quot;/etc/ants/inventory_cache.json&quot;</string>
+				<key>group_prefix</key>
+				<string>&quot;ants-&quot;</string>
+				<key>common_group</key>
+				<string>&quot;ants-common&quot;</string>
+				<key>common_ad_connected</key>
+				<string>&quot;common_ad_connected&quot;</string>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.github.ants-framework</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ants-framework.payload</string>
+			<key>PayloadUUID</key>
+			<string>6D822D00-CD3B-58DB-B21A-D07AC785FDA6</string>
+			<key>PayloadDisplayName</key>
+			<string>ANTS Framework</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E897BDB0-84F8-58B4-81EC-8E81EC3A051F</string>
+	<key>PayloadDisplayName</key>
+	<string>ANTS Framework</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ants-framework</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

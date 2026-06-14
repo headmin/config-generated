@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures menu extras.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>delaySeconds</key>
+			<real>2.5</real>
+			<key>maxWaitSeconds</key>
+			<real>20</real>
+			<key>AirPort.menu</key>
+			<false/>
+			<key>Battery.menu</key>
+			<false/>
+			<key>Bluetooth.menu</key>
+			<false/>
+			<key>CPU.menu</key>
+			<false/>
+			<key>Clock.menu</key>
+			<false/>
+			<key>Displays.menu</key>
+			<false/>
+			<key>Eject.menu</key>
+			<false/>
+			<key>Fax.menu</key>
+			<false/>
+			<key>HomeSync.menu</key>
+			<false/>
+			<key>iChat.menu</key>
+			<false/>
+			<key>Ink.menu</key>
+			<false/>
+			<key>IrDA.menu</key>
+			<false/>
+			<key>PCCard.menu</key>
+			<false/>
+			<key>PPP.menu</key>
+			<false/>
+			<key>PPPoE.menu</key>
+			<false/>
+			<key>RemoteDesktop.menu</key>
+			<false/>
+			<key>Script Menu.menu</key>
+			<false/>
+			<key>Spaces.menu</key>
+			<false/>
+			<key>Sync.menu</key>
+			<false/>
+			<key>TextInput.menu</key>
+			<false/>
+			<key>TimeMachine.menu</key>
+			<false/>
+			<key>UniversalAccess.menu</key>
+			<false/>
+			<key>User.menu</key>
+			<false/>
+			<key>VPN.menu</key>
+			<false/>
+			<key>Volume.menu</key>
+			<false/>
+			<key>WWAN.menu</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.mcxMenuExtras</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.mcxMenuExtras.payload</string>
+			<key>PayloadUUID</key>
+			<string>367EE560-9A62-5690-AFEE-BC39E3B6F071</string>
+			<key>PayloadDisplayName</key>
+			<string>Managed Menu Extras</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>BEBBD9EE-F374-5E8D-899E-CF0CF068CD63</string>
+	<key>PayloadDisplayName</key>
+	<string>Managed Menu Extras</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.mcxMenuExtras</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

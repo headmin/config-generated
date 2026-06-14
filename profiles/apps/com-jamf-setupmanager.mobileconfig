@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Jamf Setup Manager settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DEBUG</key>
+			<false/>
+			<key>title</key>
+			<string>&quot;Welcome to Setup Manager&quot;</string>
+			<key>icon</key>
+			<string>&quot;name:AppIcon&quot;</string>
+			<key>message</key>
+			<string>&quot;Setup Manager is configuring your Mac…&quot;</string>
+			<key>banner</key>
+			<string></string>
+			<key>background</key>
+			<string></string>
+			<key>runAt</key>
+			<string>&quot;enrollment&quot;</string>
+			<key>accentColor</key>
+			<string></string>
+			<key>tileColor</key>
+			<string></string>
+			<key>finalCountdown</key>
+			<integer>60</integer>
+			<key>finalAction</key>
+			<string>&quot;continue&quot;</string>
+			<key>totalDownloadBytes</key>
+			<integer>0</integer>
+			<key>jssID</key>
+			<string></string>
+			<key>computerID</key>
+			<string></string>
+			<key>userID</key>
+			<string></string>
+			<key>enrollmentUserID</key>
+			<string></string>
+			<key>computerNameTemplate</key>
+			<string></string>
+			<key>overrideSerialNumber</key>
+			<string></string>
+			<key>hideActionLabels</key>
+			<false/>
+			<key>actionOutputLogging</key>
+			<string>&quot;error&quot;</string>
+			<key>finishedMessage</key>
+			<string></string>
+			<key>startingMessage</key>
+			<string>&quot;Getting Ready…&quot;</string>
+			<key>networkQualityCheck</key>
+			<true/>
+			<key>hideDebugLabel</key>
+			<false/>
+			<key>simulateMDM</key>
+			<string></string>
+			<key>help</key>
+			<dict/>
+			<key>userEntry</key>
+			<dict/>
+			<key>enrollmentActions</key>
+			<array/>
+			<key>finishedScript</key>
+			<string></string>
+			<key>finishedTrigger</key>
+			<string></string>
+			<key>webhooks</key>
+			<dict>
+				<key>started</key>
+				<array/>
+				<key>finished</key>
+				<array/>
+			</dict>
+			<key>networkCheck</key>
+			<array/>
+			<key>PLEASE_DO_NOT_TRACK</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.jamf.setupmanager</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.setupmanager.payload</string>
+			<key>PayloadUUID</key>
+			<string>B274762C-D0CA-5A8B-AB71-99CEFA7A9ACD</string>
+			<key>PayloadDisplayName</key>
+			<string>Jamf Setup Manager</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>4DD886F5-661C-5D22-A00C-E16ED2780463</string>
+	<key>PayloadDisplayName</key>
+	<string>Jamf Setup Manager</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.setupmanager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

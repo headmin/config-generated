@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures parental control dictionary restrictions.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>parentalControl</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.Dictionary</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Dictionary.payload</string>
+			<key>PayloadUUID</key>
+			<string>1AA7A65A-B3EC-5E42-9016-DBEE198C4CBC</string>
+			<key>PayloadDisplayName</key>
+			<string>Parental Controls: Dictionary</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>B5882D28-2AB3-56BA-B029-3CEC025A1F72</string>
+	<key>PayloadDisplayName</key>
+	<string>Parental Controls: Dictionary</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Dictionary</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

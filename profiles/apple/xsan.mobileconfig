@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures an Xsan client system.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>sanName</key>
+			<string></string>
+			<key>sanConfigURLs</key>
+			<array/>
+			<key>fsnameservers</key>
+			<array/>
+			<key>sanAuthMethod</key>
+			<string></string>
+			<key>sharedSecret</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.xsan</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.xsan.payload</string>
+			<key>PayloadUUID</key>
+			<string>AE24F6BA-DF75-59D8-9BEB-0231504D2B88</string>
+			<key>PayloadDisplayName</key>
+			<string>Xsan</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>811ED992-4A3A-5C5F-8382-A3FB9374EDA4</string>
+	<key>PayloadDisplayName</key>
+	<string>Xsan</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.xsan</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

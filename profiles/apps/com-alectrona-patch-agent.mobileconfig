@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Settings for Patch Agent</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>InstallOrUpdate</key>
+			<array/>
+			<key>UpdateOnly</key>
+			<array/>
+			<key>OtherManagedSoftware</key>
+			<array/>
+			<key>RunInterval</key>
+			<integer>0</integer>
+			<key>SkipFirstPatchAgentRun</key>
+			<false/>
+			<key>ActiveIntervals</key>
+			<false/>
+			<key>RemovePatchSymlink</key>
+			<false/>
+			<key>ReconAfterInstall</key>
+			<false/>
+			<key>DeferIfRunning</key>
+			<false/>
+			<key>UpdateMAS</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.alectrona.patch-agent</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.patch-agent.payload</string>
+			<key>PayloadUUID</key>
+			<string>262B653F-8970-564C-972F-E3094302C587</string>
+			<key>PayloadDisplayName</key>
+			<string>Alectrona Patch Agent</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>89AD8E45-45D8-5215-98C0-8AE9A6623EAB</string>
+	<key>PayloadDisplayName</key>
+	<string>Alectrona Patch Agent</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.patch-agent</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

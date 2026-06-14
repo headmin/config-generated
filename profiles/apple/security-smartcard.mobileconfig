@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures a smart card.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>UserPairing</key>
+			<true/>
+			<key>allowSmartCard</key>
+			<true/>
+			<key>checkCertificateTrust</key>
+			<integer>0</integer>
+			<key>oneCardPerUser</key>
+			<false/>
+			<key>tokenRemovalAction</key>
+			<integer>0</integer>
+			<key>enforceSmartCard</key>
+			<false/>
+			<key>allowUnmappedUsers</key>
+			<integer>0</integer>
+			<key>PayloadType</key>
+			<string>com.apple.security.smartcard</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.smartcard.payload</string>
+			<key>PayloadUUID</key>
+			<string>5B8FB545-57DE-542D-8B45-2128736B650B</string>
+			<key>PayloadDisplayName</key>
+			<string>SmartCard</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>B33287D8-4F32-5CDA-924E-BE65FFE445B8</string>
+	<key>PayloadDisplayName</key>
+	<string>SmartCard</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.smartcard</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

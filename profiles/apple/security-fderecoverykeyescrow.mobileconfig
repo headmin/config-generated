@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures FileVault recovery key escrow.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Location</key>
+			<string></string>
+			<key>EncryptCertPayloadUUID</key>
+			<string></string>
+			<key>DeviceKey</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.security.FDERecoveryKeyEscrow</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.FDERecoveryKeyEscrow.payload</string>
+			<key>PayloadUUID</key>
+			<string>04D1126E-8AC4-5C06-83DF-70AF0A35B612</string>
+			<key>PayloadDisplayName</key>
+			<string>FDE Recovery Key Escrow</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>10623F36-4AE5-575B-8EEC-70B1BBC1256A</string>
+	<key>PayloadDisplayName</key>
+	<string>FDE Recovery Key Escrow</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.FDERecoveryKeyEscrow</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

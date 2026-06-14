@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>jamJAR Preferences</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>log_file_dir</key>
+			<string>&quot;/var/log/&quot;</string>
+			<key>log_file_name</key>
+			<string>&quot;jamJAR&quot;</string>
+			<key>notifier_msg_title</key>
+			<string>&quot;jamJAR&quot;</string>
+			<key>notifier_msg_installed</key>
+			<string>&quot;%s %s has been installed&quot;</string>
+			<key>notifier_msg_nopending</key>
+			<string>&quot;No updates pending&quot;</string>
+			<key>notifier_msg_pending</key>
+			<string>&quot;Logout to complete pending updates&quot;</string>
+			<key>notifier_msg_uptodate</key>
+			<string>&quot;Latest version of %s is installed&quot;</string>
+			<key>notifier_msg_osupdatespending</key>
+			<string>&quot;macOS Updates available. Click here for more details&quot;</string>
+			<key>notifier_path</key>
+			<string>&quot;/Library/Application Support/JAMF/bin/Management Action.app/Contents/MacOS/Management Action&quot;</string>
+			<key>notifier_sender_id</key>
+			<string>&quot;com.jamfsoftware.selfservice&quot;</string>
+			<key>datajar_notifier</key>
+			<false/>
+			<key>datajar_notifier_logout_button</key>
+			<string>&quot;Logout&quot;</string>
+			<key>no_msg_category</key>
+			<string>&quot;secret category&quot;</string>
+			<key>delete_secure_auth</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>uk.co.dataJAR.jamJAR</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.jamJAR.payload</string>
+			<key>PayloadUUID</key>
+			<string>05402EDB-39FF-5BF0-AC35-E40163493636</string>
+			<key>PayloadDisplayName</key>
+			<string>jamJAR</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>F6D33867-4A7D-55D5-A306-467B124EDEAD</string>
+	<key>PayloadDisplayName</key>
+	<string>jamJAR</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.jamJAR</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

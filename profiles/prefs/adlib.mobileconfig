@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Ad Tracking settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>forceLimitAdTracking</key>
+			<false/>
+			<key>allowApplePersonalizedAdvertising</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.AdLib</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.AdLib.payload</string>
+			<key>PayloadUUID</key>
+			<string>51D15C9B-8B7F-53E8-9D70-34C18209DDAE</string>
+			<key>PayloadDisplayName</key>
+			<string>Ad Tracking</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>432FA0B1-B007-581F-ACBC-41F17865936B</string>
+	<key>PayloadDisplayName</key>
+	<string>Ad Tracking</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.AdLib</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

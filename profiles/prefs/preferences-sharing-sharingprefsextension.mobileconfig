@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Media Sharing settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>homeSharingUIStatus</key>
+			<integer>0</integer>
+			<key>legacySharingUIStatus</key>
+			<integer>0</integer>
+			<key>mediaSharingUIStatus</key>
+			<integer>0</integer>
+			<key>PayloadType</key>
+			<string>com.apple.preferences.sharing.SharingPrefsExtension</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.SharingPrefsExtension.payload</string>
+			<key>PayloadUUID</key>
+			<string>5FC4A02D-48D8-525D-B53C-085F61D6635C</string>
+			<key>PayloadDisplayName</key>
+			<string>Media Sharing</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>207D7D58-F368-5A9C-829F-8E51DEB156AA</string>
+	<key>PayloadDisplayName</key>
+	<string>Media Sharing</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.SharingPrefsExtension</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

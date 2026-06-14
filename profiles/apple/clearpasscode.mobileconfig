@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Remove the passcode from a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>UnlockToken</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>ClearPasscode</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ClearPasscode.payload</string>
+			<key>PayloadUUID</key>
+			<string>3C685082-BD4E-5125-A903-4B1E4A877E5B</string>
+			<key>PayloadDisplayName</key>
+			<string>Clear Passcode Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>7982D42D-C7E3-5510-ACE5-66DF3BCDC543</string>
+	<key>PayloadDisplayName</key>
+	<string>Clear Passcode Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ClearPasscode</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

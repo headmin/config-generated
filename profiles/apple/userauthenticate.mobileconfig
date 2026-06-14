@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Authenticates a user with a two-step authentication protocol.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>MessageType</key>
+			<string></string>
+			<key>UDID</key>
+			<string></string>
+			<key>UserID</key>
+			<string></string>
+			<key>DigestResponse</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>UserAuthenticate</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.UserAuthenticate.payload</string>
+			<key>PayloadUUID</key>
+			<string>1E70EE87-D9C3-51E8-BC8A-2C9EFB7896B3</string>
+			<key>PayloadDisplayName</key>
+			<string>User Authenticate</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E7B9D6C2-7F51-5306-A56F-9D4BBF2CB872</string>
+	<key>PayloadDisplayName</key>
+	<string>User Authenticate</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.UserAuthenticate</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

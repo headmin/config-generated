@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the first wired Ethernet interface.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ANY</key>
+			<string></string>
+			<key>SetupModes</key>
+			<array/>
+			<key>EAPClientConfiguration</key>
+			<dict>
+				<key>AcceptEAPTypes</key>
+				<array/>
+				<key>UserName</key>
+				<string></string>
+				<key>UserPassword</key>
+				<string></string>
+				<key>OneTimeUserPassword</key>
+				<false/>
+				<key>PayloadCertificateAnchorUUID</key>
+				<array/>
+				<key>TLSTrustedServerNames</key>
+				<array/>
+				<key>TLSAllowTrustExceptions</key>
+				<true/>
+				<key>TTLSInnerAuthentication</key>
+				<string>&quot;MSCHAPv2&quot;</string>
+				<key>OuterIdentity</key>
+				<string></string>
+				<key>TLSMinimumVersion</key>
+				<string>&quot;1.0&quot;</string>
+				<key>TLSMaximumVersion</key>
+				<string>&quot;1.2&quot;</string>
+				<key>EAPFASTUsePAC</key>
+				<false/>
+				<key>EAPFASTProvisionPAC</key>
+				<false/>
+				<key>EAPFASTProvisionPACAnonymously</key>
+				<false/>
+				<key>EAPSIMNumberOfRANDs</key>
+				<integer>3</integer>
+				<key>SystemModeCredentialsSource</key>
+				<string></string>
+				<key>SystemModeUseOpenDirectoryCredentials</key>
+				<false/>
+				<key>TLSTrustedCertificates</key>
+				<array/>
+				<key>TLSCertificateIsRequired</key>
+				<false/>
+			</dict>
+			<key>Interface</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.firstethernet.managed</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.managed.payload</string>
+			<key>PayloadUUID</key>
+			<string>75A016A9-ADC9-5257-9AB6-A44DF8414DC5</string>
+			<key>PayloadDisplayName</key>
+			<string>802.1X: First Ethernet</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>31A735D9-3545-5B36-93D5-42AFD3AB1314</string>
+	<key>PayloadDisplayName</key>
+	<string>802.1X: First Ethernet</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.managed</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

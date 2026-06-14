@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Manage configuration for the Firezone macOS client.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>authURL</key>
+			<string>&quot;https://app.firezone.dev&quot;</string>
+			<key>apiURL</key>
+			<string>&quot;wss://api.firezone.dev&quot;</string>
+			<key>logFilter</key>
+			<string>&quot;info&quot;</string>
+			<key>accountSlug</key>
+			<string></string>
+			<key>hideAdminPortalMenuItem</key>
+			<false/>
+			<key>hideResourceList</key>
+			<false/>
+			<key>connectOnStart</key>
+			<false/>
+			<key>startOnLogin</key>
+			<false/>
+			<key>disableUpdateCheck</key>
+			<false/>
+			<key>supportURL</key>
+			<string>&quot;https://www.firezone.dev/support&quot;</string>
+			<key>PayloadType</key>
+			<string>dev.firezone.firezone</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.firezone.payload</string>
+			<key>PayloadUUID</key>
+			<string>398244BA-9D62-5B55-8808-C7101FE240A9</string>
+			<key>PayloadDisplayName</key>
+			<string>Firezone</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>CDC021E3-74CB-5972-8604-C878C852AE28</string>
+	<key>PayloadDisplayName</key>
+	<string>Firezone</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.firezone</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

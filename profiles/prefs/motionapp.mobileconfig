@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Motion settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FFCheckedUpgrade</key>
+			<false/>
+			<key>LKWhatsNewDisplayedForAppVersion</key>
+			<dict>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<true/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.motionapp</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.motionapp.payload</string>
+			<key>PayloadUUID</key>
+			<string>22BB5B88-22A9-5219-B80F-CBDC3F16CA89</string>
+			<key>PayloadDisplayName</key>
+			<string>Motion</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>B39519CE-56E4-5D37-8E7E-BB5753ECE963</string>
+	<key>PayloadDisplayName</key>
+	<string>Motion</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.motionapp</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

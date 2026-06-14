@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures iCloud password preferences.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DisableUsingiCloudPassword</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.preference.users</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.users.payload</string>
+			<key>PayloadUUID</key>
+			<string>08259E43-C824-5C22-AF4A-7AE89D41EFEE</string>
+			<key>PayloadDisplayName</key>
+			<string>User Preferences</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>38664556-2329-5BD4-88FC-79FB71664347</string>
+	<key>PayloadDisplayName</key>
+	<string>User Preferences</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.users</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

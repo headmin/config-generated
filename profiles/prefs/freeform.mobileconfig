@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Freeform settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>CRLConnectICloudDialogShown</key>
+			<integer>99999999</integer>
+			<key>PayloadType</key>
+			<string>com.apple.freeform</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.freeform.payload</string>
+			<key>PayloadUUID</key>
+			<string>6C5A3C79-42B1-5974-9F98-819859759060</string>
+			<key>PayloadDisplayName</key>
+			<string>Freeform</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>3F58732D-850D-5016-AB64-225069D06C9F</string>
+	<key>PayloadDisplayName</key>
+	<string>Freeform</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.freeform</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

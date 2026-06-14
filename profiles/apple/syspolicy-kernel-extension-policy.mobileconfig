@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the kernel extension policies.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowNonAdminUserApprovals</key>
+			<false/>
+			<key>AllowUserOverrides</key>
+			<false/>
+			<key>AllowedTeamIdentifiers</key>
+			<array/>
+			<key>AllowedKernelExtensions</key>
+			<dict>
+				<key>ANY</key>
+				<array/>
+				<key>{{value}}</key>
+				<array/>
+				<key>{{key}}</key>
+				<string></string>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.syspolicy.kernel-extension-policy</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.kernel-extension-policy.payload</string>
+			<key>PayloadUUID</key>
+			<string>667A3366-5F43-56F7-8040-D81E164F0E1C</string>
+			<key>PayloadDisplayName</key>
+			<string>System Policy - Kernel Extensions</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>2455EF47-38FE-501F-B003-B81354E98FDC</string>
+	<key>PayloadDisplayName</key>
+	<string>System Policy - Kernel Extensions</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.kernel-extension-policy</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

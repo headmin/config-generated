@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to define settings for Okta Verify (SSO Extension)</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>OktaVerify.DeviceHealthOptions</key>
+			<string></string>
+			<key>OktaVerify.EnrollmentOptions</key>
+			<string>&quot;SilentEnrollmentDisabled&quot;</string>
+			<key>OktaVerify.OrgUrl</key>
+			<string></string>
+			<key>PlatformSSO.ProtocolVersion</key>
+			<string></string>
+			<key>OktaVerify.PasswordSyncClientID</key>
+			<string></string>
+			<key>OktaVerify.ReportDiagnostics</key>
+			<false/>
+			<key>OktaVerify.LaunchOptions</key>
+			<string></string>
+			<key>OktaVerify.UserPrincipalName</key>
+			<string></string>
+			<key>OktaVerify.EnableOSQueryCustomChecks</key>
+			<false/>
+			<key>OktaVerify.OSQueryCustomChecksTimeout</key>
+			<string>&quot;2&quot;</string>
+			<key>OktaVerify.OSQueryAllowedDomains</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.okta.mobile.auth-service-extension</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.auth-service-extension.payload</string>
+			<key>PayloadUUID</key>
+			<string>80A21356-0DE8-5AB5-81F4-6AC71B509527</string>
+			<key>PayloadDisplayName</key>
+			<string>Okta Verify (SSO Extension)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C68EFCC1-5E24-5D3B-A9B8-418D07D6DE9F</string>
+	<key>PayloadDisplayName</key>
+	<string>Okta Verify (SSO Extension)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.auth-service-extension</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

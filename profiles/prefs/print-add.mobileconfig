@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Use this section to configure the toolbar of the Add Printer window under Printers and Scanners in System Preferences. The primary use case for this manifest is for prepopulating the toolbar with the &apos;Advanced&apos; button.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NSToolbar Configuration com.apple.print.add.toolbar</key>
+			<dict>
+				<key>TB Item Identifiers</key>
+				<array/>
+				<key>TB Display Mode</key>
+				<integer>1</integer>
+				<key>TB Icon Size Mode</key>
+				<integer>1</integer>
+				<key>TB Is Shown</key>
+				<integer>1</integer>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.print.add</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.add.payload</string>
+			<key>PayloadUUID</key>
+			<string>91116972-F353-59C5-9194-FC1F30957A7A</string>
+			<key>PayloadDisplayName</key>
+			<string>Printing: Toolbar of Add Printer Window</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>BCBDA28A-2592-550B-B84C-5E700F4558B3</string>
+	<key>PayloadDisplayName</key>
+	<string>Printing: Toolbar of Add Printer Window</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.add</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

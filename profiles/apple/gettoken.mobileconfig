@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Gets a token from the server.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>MessageType</key>
+			<string></string>
+			<key>TokenServiceType</key>
+			<string></string>
+			<key>TokenParameters</key>
+			<string></string>
+			<key>UDID</key>
+			<string></string>
+			<key>EnrollmentID</key>
+			<string></string>
+			<key>EnrollmentUserID</key>
+			<string></string>
+			<key>UserShortName</key>
+			<string></string>
+			<key>UserID</key>
+			<string></string>
+			<key>UserLongName</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>GetToken</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.GetToken.payload</string>
+			<key>PayloadUUID</key>
+			<string>16C37907-2388-5426-A4A3-AF4BDD82B80A</string>
+			<key>PayloadDisplayName</key>
+			<string>Get Token</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E654A89B-8873-542D-8FC0-5231B1BAF08D</string>
+	<key>PayloadDisplayName</key>
+	<string>Get Token</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.GetToken</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

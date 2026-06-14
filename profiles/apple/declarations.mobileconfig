@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that applies a set of declarations to the device through the Settings app.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Declarations</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.declarations</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.declarations.payload</string>
+			<key>PayloadUUID</key>
+			<string>559E17AF-EBCA-55B5-95F0-6D55570AD35F</string>
+			<key>PayloadDisplayName</key>
+			<string>Declarations</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>132E15AB-F61B-5B14-B132-CBC271B12727</string>
+	<key>PayloadDisplayName</key>
+	<string>Declarations</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.declarations</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures privacy preferences.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Services</key>
+			<dict>
+				<key>AddressBook</key>
+				<array/>
+				<key>Calendar</key>
+				<array/>
+				<key>Reminders</key>
+				<array/>
+				<key>Photos</key>
+				<array/>
+				<key>Camera</key>
+				<array/>
+				<key>Microphone</key>
+				<array/>
+				<key>Accessibility</key>
+				<array/>
+				<key>PostEvent</key>
+				<array/>
+				<key>SystemPolicyAllFiles</key>
+				<array/>
+				<key>SystemPolicySysAdminFiles</key>
+				<array/>
+				<key>AppleEvents</key>
+				<array/>
+				<key>MediaLibrary</key>
+				<array/>
+				<key>FileProviderPresence</key>
+				<array/>
+				<key>ListenEvent</key>
+				<array/>
+				<key>ScreenCapture</key>
+				<array/>
+				<key>SpeechRecognition</key>
+				<array/>
+				<key>SystemPolicyDesktopFolder</key>
+				<array/>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array/>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array/>
+				<key>SystemPolicyNetworkVolumes</key>
+				<array/>
+				<key>SystemPolicyRemovableVolumes</key>
+				<array/>
+				<key>SystemPolicyAppBundles</key>
+				<array/>
+				<key>SystemPolicyAppData</key>
+				<array/>
+				<key>BluetoothAlways</key>
+				<array/>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.configuration-profile-policy.payload</string>
+			<key>PayloadUUID</key>
+			<string>D02A7114-7767-5E52-9C8C-DBA0D5EFD5AC</string>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Preferences Policy Control</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>9AC29A8A-768A-5C6E-A17F-7FFED997FFF9</string>
+	<key>PayloadDisplayName</key>
+	<string>Privacy Preferences Policy Control</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.configuration-profile-policy</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

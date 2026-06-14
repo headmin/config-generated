@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>FxFactory settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>allowAutomaticUpdates</key>
+			<false/>
+			<key>checkForUpdates</key>
+			<false/>
+			<key>warnAboutUpdates</key>
+			<false/>
+			<key>warnAboutUpdatesToOtherSoftware</key>
+			<false/>
+			<key>warnAboutMissingComponents</key>
+			<false/>
+			<key>warnAboutUnsupportedHost</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.fxfactory.FxFactory</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.FxFactory.payload</string>
+			<key>PayloadUUID</key>
+			<string>193EF09F-235B-5ACF-8303-AA0988038861</string>
+			<key>PayloadDisplayName</key>
+			<string>FxFactory</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>76935BD5-A17D-5BB6-AA00-53C47CF99DAD</string>
+	<key>PayloadDisplayName</key>
+	<string>FxFactory</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.FxFactory</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

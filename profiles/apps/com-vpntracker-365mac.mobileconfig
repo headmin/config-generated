@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Manage settings in VPN Tracker for Mac, iPhone or iPad – the multi protocol VPN client for enterprise teams. Visit vpntracker.com/goto/profile to learn more.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Managed_Onboarding_TeamUUID</key>
+			<string></string>
+			<key>Managed_Onboarding_TeamAPIToken</key>
+			<string></string>
+			<key>Managed_Onboarding_Greeting</key>
+			<string></string>
+			<key>Managed_Onboarding_EmailDomains</key>
+			<string></string>
+			<key>Managed_Onboarding_Email</key>
+			<string></string>
+			<key>Managed_Onboarding_GivenName</key>
+			<string></string>
+			<key>Managed_Onboarding_FamilyName</key>
+			<string></string>
+			<key>Managed_Onboarding_FullName</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.vpntracker.365mac</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.365mac.payload</string>
+			<key>PayloadUUID</key>
+			<string>540EBDDB-D4F1-58ED-8649-C38155E439C1</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN Tracker</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>1FCF2B33-ACB0-5A7E-93D3-5D4331786F4A</string>
+	<key>PayloadDisplayName</key>
+	<string>VPN Tracker</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.365mac</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

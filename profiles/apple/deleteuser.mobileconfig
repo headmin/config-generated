@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Delete a user&apos;s account from a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>UserName</key>
+			<string></string>
+			<key>ForceDeletion</key>
+			<string>false</string>
+			<key>DeleteAllUsers</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>DeleteUser</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.DeleteUser.payload</string>
+			<key>PayloadUUID</key>
+			<string>831F6796-0606-56F0-9DB2-00639B64323D</string>
+			<key>PayloadDisplayName</key>
+			<string>Delete User Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>D5C86835-25A1-5229-8FFD-72BA4339F93D</string>
+	<key>PayloadDisplayName</key>
+	<string>Delete User Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.DeleteUser</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

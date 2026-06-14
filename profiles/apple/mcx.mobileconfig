@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures managed Wi-Fi settings.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>RequireAdminForIBSS</key>
+			<false/>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<false/>
+			<key>RequireAdminToTurnAirPortOnOff</key>
+			<false/>
+			<key>timeServer</key>
+			<string></string>
+			<key>timeZone</key>
+			<string></string>
+			<key>com.apple.EnergySaver.desktop.ACPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>0</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Disk Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake on LAN</key>
+				<integer>0</integer>
+				<key>Wake On Modem Ring</key>
+				<integer>0</integer>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>0</integer>
+				<key>Dynamic Power Step</key>
+				<integer>0</integer>
+				<key>Reduce Processor Speed</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.ACPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>0</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Disk Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake on LAN</key>
+				<integer>0</integer>
+				<key>Wake On Modem Ring</key>
+				<integer>0</integer>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>0</integer>
+				<key>Dynamic Power Step</key>
+				<integer>0</integer>
+				<key>Reduce Processor Speed</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.BatteryPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>0</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Disk Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake on LAN</key>
+				<integer>0</integer>
+				<key>Wake On Modem Ring</key>
+				<integer>0</integer>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>0</integer>
+				<key>Dynamic Power Step</key>
+				<integer>0</integer>
+				<key>Reduce Processor Speed</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.desktop.Schedule</key>
+			<dict>
+				<key>RepeatingPowerOn</key>
+				<dict>
+					<key>eventtype</key>
+					<string></string>
+					<key>weekdays</key>
+					<integer>0</integer>
+					<key>time</key>
+					<integer>0</integer>
+				</dict>
+				<key>RepeatingPowerOff</key>
+				<dict>
+					<key>eventtype</key>
+					<string></string>
+					<key>weekdays</key>
+					<integer>0</integer>
+					<key>time</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>SleepDisabled</key>
+			<false/>
+			<key>dontAllowFDEDisable</key>
+			<false/>
+			<key>dontAllowFDEEnable</key>
+			<false/>
+			<key>DestroyFVKeyOnStandby</key>
+			<false/>
+			<key>EnableGuestAccount</key>
+			<false/>
+			<key>DisableGuestAccount</key>
+			<false/>
+			<key>com.apple.cachedaccounts.CreateAtLogin</key>
+			<false/>
+			<key>com.apple.cachedaccounts.WarnOnCreate</key>
+			<false/>
+			<key>cachedaccounts.WarnOnCreate.allowNever</key>
+			<false/>
+			<key>cachedaccounts.expiry.delete.disusedSeconds</key>
+			<integer>-1</integer>
+			<key>cachedaccounts.askForSecureTokenAuthBypass</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.MCX.payload</string>
+			<key>PayloadUUID</key>
+			<string>64985138-8180-58D4-B217-CBD9A906CE43</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi Managed Settings</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>FD6F8279-2782-552A-8B75-D26AE73F2F02</string>
+	<key>PayloadDisplayName</key>
+	<string>Wi-Fi Managed Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.MCX</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

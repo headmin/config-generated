@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Books/iBooks settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>BKDisableBookStorePreferenceKey</key>
+			<false/>
+			<key>BKAlreadyDisplayedGDPRWelcomeExperience</key>
+			<false/>
+			<key>BKAlreadyDisplayedUbiquity</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.iBooksX</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.iBooksX.payload</string>
+			<key>PayloadUUID</key>
+			<string>F898B2FB-2276-5D24-A3A2-39BCD1B3C6AA</string>
+			<key>PayloadDisplayName</key>
+			<string>Books/iBooks</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>255D35BC-5FC3-5B9F-B148-02303EBD5810</string>
+	<key>PayloadDisplayName</key>
+	<string>Books/iBooks</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.iBooksX</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

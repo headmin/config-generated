@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Cursor settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowedExtensions</key>
+			<string></string>
+			<key>AllowedTeamId</key>
+			<string></string>
+			<key>ExtensionGalleryServiceUrl</key>
+			<string></string>
+			<key>NetworkDisableHttp2</key>
+			<false/>
+			<key>UpdateMode</key>
+			<string>&quot;default&quot;</string>
+			<key>WorkspaceTrustEnabled</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.todesktop.230313mzl4w4u92</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.230313mzl4w4u92.payload</string>
+			<key>PayloadUUID</key>
+			<string>4D54EA2F-2CA5-567D-B2D9-72160698FBA5</string>
+			<key>PayloadDisplayName</key>
+			<string>Cursor</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>7ADAA1DB-07A4-5031-8D90-0FA585A88C4B</string>
+	<key>PayloadDisplayName</key>
+	<string>Cursor</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.230313mzl4w4u92</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

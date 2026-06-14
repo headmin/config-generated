@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Control Center settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AirplayRecieverEnabled</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.controlcenter</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.controlcenter.payload</string>
+			<key>PayloadUUID</key>
+			<string>D5BFBCAB-7D1C-519C-9CE3-5A98BBBCD641</string>
+			<key>PayloadDisplayName</key>
+			<string>Control Center</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6F8D290E-A07B-5FA9-923F-F56463BE96F8</string>
+	<key>PayloadDisplayName</key>
+	<string>Control Center</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.controlcenter</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

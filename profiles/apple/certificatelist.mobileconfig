@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Get a list of installed certificates on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ManagedOnly</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>CertificateList</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.CertificateList.payload</string>
+			<key>PayloadUUID</key>
+			<string>D4ABA56F-A54E-50A7-AD79-0F053BEBC17E</string>
+			<key>PayloadDisplayName</key>
+			<string>Certificate List Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>629D409B-1B2D-5E48-9116-775BAF526407</string>
+	<key>PayloadDisplayName</key>
+	<string>Certificate List Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.CertificateList</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

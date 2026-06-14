@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Microsoft Word settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NSRequiresAquaSystemAppearance</key>
+			<false/>
+			<key>DisableResumeAssistant</key>
+			<false/>
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<false/>
+			<key>SendASmileEnabled</key>
+			<true/>
+			<key>SendAllTelemetryEnabled</key>
+			<true/>
+			<key>SendCrashReportsEvenWithTelemetryDisabled</key>
+			<false/>
+			<key>SignInOptions</key>
+			<integer>0</integer>
+			<key>kFRETelemetryConsentKey</key>
+			<false/>
+			<key>kFREEnterpriseTelemetryInfoKey</key>
+			<false/>
+			<key>kFREIntelligenceServicesConsentV2Key</key>
+			<false/>
+			<key>PII_And_Intelligent_Services_Preference</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.microsoft.Word</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Word.payload</string>
+			<key>PayloadUUID</key>
+			<string>720936F3-2B2B-55D5-91E1-4A4F8C2FD791</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft Word</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>2D44C678-1B8B-5B4C-9A08-4022EC6815DF</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft Word</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Word</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

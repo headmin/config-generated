@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures a certificate preference.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string></string>
+			<key>PayloadCertificateUUID</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.security.certificatepreference</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.certificatepreference.payload</string>
+			<key>PayloadUUID</key>
+			<string>0937B408-2BA5-53CB-BBC3-2C022DB87890</string>
+			<key>PayloadDisplayName</key>
+			<string>Certificate Preference</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>D442005A-BE4E-58F6-A0E3-5C5405B0D778</string>
+	<key>PayloadDisplayName</key>
+	<string>Certificate Preference</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.certificatepreference</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures a device to run a single app.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>App</key>
+			<dict>
+				<key>Identifier</key>
+				<string></string>
+				<key>Options</key>
+				<dict>
+					<key>DisableTouch</key>
+					<false/>
+					<key>DisableDeviceRotation</key>
+					<false/>
+					<key>DisableVolumeButtons</key>
+					<false/>
+					<key>DisableRingerSwitch</key>
+					<false/>
+					<key>DisableSleepWakeButton</key>
+					<false/>
+					<key>DisableAutoLock</key>
+					<false/>
+					<key>EnableVoiceOver</key>
+					<false/>
+					<key>EnableZoom</key>
+					<false/>
+					<key>EnableInvertColors</key>
+					<false/>
+					<key>EnableAssistiveTouch</key>
+					<false/>
+					<key>EnableSpeakSelection</key>
+					<false/>
+					<key>EnableMonoAudio</key>
+					<false/>
+					<key>EnableVoiceControl</key>
+					<false/>
+				</dict>
+				<key>UserEnabledOptions</key>
+				<dict>
+					<key>VoiceControl</key>
+					<false/>
+					<key>VoiceOver</key>
+					<false/>
+					<key>Zoom</key>
+					<false/>
+					<key>InvertColors</key>
+					<false/>
+					<key>AssistiveTouch</key>
+					<false/>
+				</dict>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.app.lock</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.lock.payload</string>
+			<key>PayloadUUID</key>
+			<string>BB57941E-A171-5774-9B62-501E7305ACC9</string>
+			<key>PayloadDisplayName</key>
+			<string>App Lock</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6143F289-8EFE-5F85-9B1B-D95CB44D2A22</string>
+	<key>PayloadDisplayName</key>
+	<string>App Lock</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.lock</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

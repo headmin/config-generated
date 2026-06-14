@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures printers.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>RequireAdminToAddPrinters</key>
+			<true/>
+			<key>AllowLocalPrinters</key>
+			<true/>
+			<key>RequireAdminToPrintLocally</key>
+			<false/>
+			<key>ShowOnlyManagedPrinters</key>
+			<false/>
+			<key>PrintFooter</key>
+			<false/>
+			<key>PrintMACAddress</key>
+			<false/>
+			<key>FooterFontSize</key>
+			<string></string>
+			<key>FooterFontName</key>
+			<string></string>
+			<key>DefaultPrinter</key>
+			<dict>
+				<key>DeviceURI</key>
+				<string></string>
+				<key>DisplayName</key>
+				<string></string>
+			</dict>
+			<key>UserPrinterList</key>
+			<dict>
+				<key>Printer</key>
+				<dict/>
+				<key>DeviceURI</key>
+				<string></string>
+				<key>DisplayName</key>
+				<string></string>
+			</dict>
+			<key>PayloadType</key>
+			<string>com.apple.mcxprinting</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.mcxprinting.payload</string>
+			<key>PayloadUUID</key>
+			<string>2D6EC23F-4F33-598D-ACA3-B92E6AE013C4</string>
+			<key>PayloadDisplayName</key>
+			<string>Printing</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>595A08D5-0829-5196-8A40-A1CF86B202B9</string>
+	<key>PayloadDisplayName</key>
+	<string>Printing</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.mcxprinting</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

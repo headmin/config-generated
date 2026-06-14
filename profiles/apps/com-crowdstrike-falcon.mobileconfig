@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>CrowdStrike Falcon Settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ccid</key>
+			<string></string>
+			<key>groupingTags</key>
+			<string></string>
+			<key>provisioningToken</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.crowdstrike.falcon</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.falcon.payload</string>
+			<key>PayloadUUID</key>
+			<string>FF1CA442-0EE2-577E-9192-9B608B6E3FE7</string>
+			<key>PayloadDisplayName</key>
+			<string>CrowdStrike Falcon</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>02FD8BF2-1EC2-5618-B371-7ABB857567BE</string>
+	<key>PayloadDisplayName</key>
+	<string>CrowdStrike Falcon</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.falcon</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

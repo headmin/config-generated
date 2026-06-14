@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>macOS Time Synchronization Daemon settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>TMAutomaticTimeOnlyEnabled</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.timed</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.timed.payload</string>
+			<key>PayloadUUID</key>
+			<string>ED3D5580-F8B7-52A0-B6BC-10243274CD31</string>
+			<key>PayloadDisplayName</key>
+			<string>macOS Time Synchronization</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6A453B22-1677-5BCD-8959-D13D84EB49B1</string>
+	<key>PayloadDisplayName</key>
+	<string>macOS Time Synchronization</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.timed</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

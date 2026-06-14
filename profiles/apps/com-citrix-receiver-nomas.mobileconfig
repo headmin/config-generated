@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Citrix Receiver</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoUpdateState</key>
+			<string></string>
+			<key>AutoUpdateRollOutBucketIndex</key>
+			<integer>0</integer>
+			<key>PreferH264HardwareDecoder</key>
+			<false/>
+			<key>PreferFFMPEGDecoder</key>
+			<false/>
+			<key>MenuBarAutoShowDelayEnabled</key>
+			<false/>
+			<key>MenuBarAutoShowDelay</key>
+			<real>0</real>
+			<key>UDPStackParameters</key>
+			<false/>
+			<key>HockeySDKAutomaticallySendCrashReports</key>
+			<false/>
+			<key>HockeySDKCrashReportActivated</key>
+			<false/>
+			<key>TraceOn</key>
+			<false/>
+			<key>DisplaySplashScreen</key>
+			<false/>
+			<key>BITApplicationWasLaunched</key>
+			<false/>
+			<key>CEIPEnabled</key>
+			<false/>
+			<key>PreferMetalRendering</key>
+			<false/>
+			<key>HDXOverUDPAllowed</key>
+			<false/>
+			<key>LegacyPublishedContentEnabled</key>
+			<false/>
+			<key>NetDisruptBrightness</key>
+			<integer>80</integer>
+			<key>SecurityComplianceMode</key>
+			<string>&quot;FIPS&quot;</string>
+			<key>SecurityAllowedTLSVersions</key>
+			<array/>
+			<key>SSLCertificateRevocationCheckPolicy</key>
+			<string>&quot;FullAccessCheck&quot;</string>
+			<key>PayloadType</key>
+			<string>com.citrix.receiver.nomas</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.nomas.payload</string>
+			<key>PayloadUUID</key>
+			<string>93170640-DB32-5102-9574-A87850DE64DA</string>
+			<key>PayloadDisplayName</key>
+			<string>Citrix Receiver</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>50C7A951-8F21-55BB-9AD1-A9A6EB95FC04</string>
+	<key>PayloadDisplayName</key>
+	<string>Citrix Receiver</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.nomas</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

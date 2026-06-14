@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Particulars Today Extension (Widget) settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>labMode</key>
+			<false/>
+			<key>detailLevel</key>
+			<integer>0</integer>
+			<key>labelCase</key>
+			<integer>1</integer>
+			<key>dhcpLeaseRemaining</key>
+			<false/>
+			<key>macAddressFormat</key>
+			<integer>1</integer>
+			<key>networkDetailLevel</key>
+			<integer>0</integer>
+			<key>subnetMaskCIDRNotation</key>
+			<false/>
+			<key>coreCount</key>
+			<false/>
+			<key>diskFreeSpace</key>
+			<integer>0</integer>
+			<key>PayloadType</key>
+			<string>net.glencode.Particulars.Widget</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.Widget.payload</string>
+			<key>PayloadUUID</key>
+			<string>D2434159-A00F-5575-9F82-7E52FB92688E</string>
+			<key>PayloadDisplayName</key>
+			<string>Particulars Today Extension (Widget)</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>3E442100-6052-593A-96B8-41F7D41F695E</string>
+	<key>PayloadDisplayName</key>
+	<string>Particulars Today Extension (Widget)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.Widget</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

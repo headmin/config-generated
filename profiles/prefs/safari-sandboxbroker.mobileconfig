@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Safari Developer settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ShowDevelopMenu</key>
+			<false/>
+			<key>AlwaysPromptForDownloadFolder</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.Safari.SandboxBroker</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.SandboxBroker.payload</string>
+			<key>PayloadUUID</key>
+			<string>F22FF214-DB90-5720-A5C0-2575701FD4F0</string>
+			<key>PayloadDisplayName</key>
+			<string>Safari Developer</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>01FC01BC-BB40-5F56-AD7D-E1350C636ECD</string>
+	<key>PayloadDisplayName</key>
+	<string>Safari Developer</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.SandboxBroker</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

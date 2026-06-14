@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures cellular settings.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>Name</key>
+				<string></string>
+				<key>AuthenticationType</key>
+				<string>&quot;PAP&quot;</string>
+				<key>Username</key>
+				<string></string>
+				<key>Password</key>
+				<string></string>
+				<key>AllowedProtocolMask</key>
+				<integer>0</integer>
+			</dict>
+			<key>APNs</key>
+			<array/>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.cellular.payload</string>
+			<key>PayloadUUID</key>
+			<string>9663D9C6-3CE7-5472-A349-1ECB3AF6713A</string>
+			<key>PayloadDisplayName</key>
+			<string>Cellular</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>C77741E5-0F85-540E-B09D-FCD95926A4F7</string>
+	<key>PayloadDisplayName</key>
+	<string>Cellular</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.cellular</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

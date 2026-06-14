@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Install a third-party app on a device.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>iTunesStoreID</key>
+			<string></string>
+			<key>Identifier</key>
+			<string></string>
+			<key>Options</key>
+			<string></string>
+			<key>ManifestURL</key>
+			<string></string>
+			<key>ManagementFlags</key>
+			<string></string>
+			<key>Configuration</key>
+			<string></string>
+			<key>Attributes</key>
+			<string></string>
+			<key>ChangeManagementState</key>
+			<string></string>
+			<key>InstallAsManaged</key>
+			<string>false</string>
+			<key>iOSApp</key>
+			<string>false</string>
+			<key>PayloadType</key>
+			<string>InstallApplication</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.InstallApplication.payload</string>
+			<key>PayloadUUID</key>
+			<string>9BCEDEFD-1FAE-5F6D-ABDB-CE6350BD56B7</string>
+			<key>PayloadDisplayName</key>
+			<string>Install Application Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>6FB6DF56-948A-584E-A14C-B9AAEDEF7410</string>
+	<key>PayloadDisplayName</key>
+	<string>Install Application Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.InstallApplication</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

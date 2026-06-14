@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures the Xsan preferences that define the volumes that automatically mount at startup.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>onlyMount</key>
+			<array/>
+			<key>denyMount</key>
+			<array/>
+			<key>denyDLC</key>
+			<array/>
+			<key>preferDLC</key>
+			<array/>
+			<key>useDLC</key>
+			<false/>
+			<key>PayloadType</key>
+			<string>com.apple.xsan.preferences</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.preferences.payload</string>
+			<key>PayloadUUID</key>
+			<string>72F34F0D-F74B-587A-ABCE-6DD0A3F3A0AB</string>
+			<key>PayloadDisplayName</key>
+			<string>Xsan Preferences</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>A732049A-7F48-5A90-8B1C-0577385F12F8</string>
+	<key>PayloadDisplayName</key>
+	<string>Xsan Preferences</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.preferences</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

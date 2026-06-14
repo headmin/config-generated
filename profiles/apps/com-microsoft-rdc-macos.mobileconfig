@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Settings for Windows App, previously Microsoft Remote Desktop</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ClientSettings.FirstRunExperienceLaunchedVersion</key>
+			<string></string>
+			<key>ClientSettings.DisableTelemetryUpload</key>
+			<false/>
+			<key>ClientSettings.EnforceCredSSPSupport</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.microsoft.rdc.macos</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.macos.payload</string>
+			<key>PayloadUUID</key>
+			<string>8893F9D1-FD30-5FF3-A5F0-C6496E54597F</string>
+			<key>PayloadDisplayName</key>
+			<string>Windows App</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>E60BB3D4-A5D7-5E70-BF80-48840EB42E5A</string>
+	<key>PayloadDisplayName</key>
+	<string>Windows App</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.macos</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

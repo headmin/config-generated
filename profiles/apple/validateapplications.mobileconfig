@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>Force validation of developer and universal provisioning profiles for enterprise apps.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Identifiers</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>ValidateApplications</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.ValidateApplications.payload</string>
+			<key>PayloadUUID</key>
+			<string>896DE92C-215F-56E9-9932-EF6853047E0D</string>
+			<key>PayloadDisplayName</key>
+			<string>Validate Applications Command</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>08E1229B-AB7B-5BDB-80C7-CE883000BBF7</string>
+	<key>PayloadDisplayName</key>
+	<string>Validate Applications Command</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.ValidateApplications</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

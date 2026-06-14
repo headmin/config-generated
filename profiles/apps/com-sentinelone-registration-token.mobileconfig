@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>SentinelOne Site / Group Token</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>S1InstallRegistrationToken</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.sentinelone.registration-token</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.registration-token.payload</string>
+			<key>PayloadUUID</key>
+			<string>CF8040B0-B98E-53D3-A4BA-8F9C9594F0FC</string>
+			<key>PayloadDisplayName</key>
+			<string>SentinelOne</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>61317C87-2C05-5D02-9051-34319D99ECB8</string>
+	<key>PayloadDisplayName</key>
+	<string>SentinelOne</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.registration-token</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

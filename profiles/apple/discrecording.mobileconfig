@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>The payload that configures disc-burning settings.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>BurnSupport</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.DiscRecording</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.DiscRecording.payload</string>
+			<key>PayloadUUID</key>
+			<string>3CF1183C-DA58-596A-8DAE-55FE5093C133</string>
+			<key>PayloadDisplayName</key>
+			<string>Media Management: Disc Burning</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>9DD3A4CA-CA50-5FB4-BD7B-73F0F65B325B</string>
+	<key>PayloadDisplayName</key>
+	<string>Media Management: Disc Burning</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.DiscRecording</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>

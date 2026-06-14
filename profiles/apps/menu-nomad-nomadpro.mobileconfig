@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDescription</key>
+	<string>NoMAD Pro settings</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AuthServer</key>
+			<string>&quot;dev-660125.oktapreview.com&quot;</string>
+			<key>LicenseFile</key>
+			<data>
+			</data>
+			<key>PeriodicUpdateTime</key>
+			<integer>15</integer>
+			<key>SignInCommand</key>
+			<string></string>
+			<key>UseKeychainPrompt</key>
+			<false/>
+			<key>UseKeychainPromptExlusions</key>
+			<array/>
+			<key>SignInLogo</key>
+			<string></string>
+			<key>TitleSignIn</key>
+			<string>&quot;Sign in to Okta&quot;</string>
+			<key>LabelUsername</key>
+			<string>&quot;Corporate e-mail&quot;</string>
+			<key>LabelPassword</key>
+			<string>&quot;Corporate Password&quot;</string>
+			<key>DontShowWelcome</key>
+			<false/>
+			<key>AutoAuth</key>
+			<true/>
+			<key>CheckSafariExtension</key>
+			<true/>
+			<key>MessagePluginDisabled</key>
+			<string>&quot;Please enable the plugin in Safari.&quot;</string>
+			<key>IgnoreDomainReachability</key>
+			<false/>
+			<key>LDAPServers</key>
+			<array/>
+			<key>KerberosRealm</key>
+			<string></string>
+			<key>TicketsOnSignIn</key>
+			<false/>
+			<key>KerberosRenew</key>
+			<false/>
+			<key>KerberosShortNameAsk</key>
+			<false/>
+			<key>KerberosShortNameAskMessage</key>
+			<string>&quot;Please enter your AD user name.&quot;</string>
+			<key>KerberosShortName</key>
+			<string>&quot;joel&quot;</string>
+			<key>UseKeychain</key>
+			<false/>
+			<key>LocalPasswordSync</key>
+			<false/>
+			<key>LocalPasswordSyncOnMatchOnly</key>
+			<false/>
+			<key>LocalPasswordSyncMessage</key>
+			<string>&quot;Please enter your local user account password.&quot;</string>
+			<key>KeychainItems</key>
+			<dict>
+				<key>{{key}}</key>
+				<string></string>
+				<key>{{value}}</key>
+				<string></string>
+			</dict>
+			<key>KeychainItemsDebug</key>
+			<true/>
+			<key>ChangePasswordOrder</key>
+			<array/>
+			<key>PasswordChangeCommand</key>
+			<string></string>
+			<key>ChangePasswordTimer</key>
+			<integer>3</integer>
+			<key>WarnOnPasswordExpiration</key>
+			<false/>
+			<key>PasswordExpirationMenu</key>
+			<false/>
+			<key>PasswordExpirationMenuDays</key>
+			<integer>15</integer>
+			<key>ExpirationWarningDays</key>
+			<integer>5</integer>
+			<key>ADExpirationShow</key>
+			<false/>
+			<key>PasswordPolicy</key>
+			<dict>
+				<key>minLength</key>
+				<string></string>
+				<key>minLowerCase</key>
+				<string></string>
+				<key>minNumber</key>
+				<string></string>
+				<key>minSymbol</key>
+				<string></string>
+				<key>minUpperCase</key>
+				<string></string>
+				<key>minMatches</key>
+				<string></string>
+			</dict>
+			<key>ExportableKey</key>
+			<false/>
+			<key>X509CA</key>
+			<string></string>
+			<key>Template</key>
+			<string>&quot;User Auth&quot;</string>
+			<key>WifiNetworks</key>
+			<array/>
+			<key>MenuIcon</key>
+			<string></string>
+			<key>ActionsUpdateTime</key>
+			<integer>15</integer>
+			<key>GetHelpType</key>
+			<string></string>
+			<key>GetHelpOptions</key>
+			<string></string>
+			<key>SelfServicePath</key>
+			<string></string>
+			<key>HideAbout</key>
+			<false/>
+			<key>HideActions</key>
+			<false/>
+			<key>HideChangePassword</key>
+			<false/>
+			<key>HideGetHelp</key>
+			<false/>
+			<key>HideGetSoftware</key>
+			<false/>
+			<key>HideLockScreen</key>
+			<false/>
+			<key>HidePreferences</key>
+			<false/>
+			<key>HideSignIn</key>
+			<false/>
+			<key>HideQuit</key>
+			<false/>
+			<key>MessagePasswordChangePolicy</key>
+			<string>&quot;Please review the employee handbook.&quot;</string>
+			<key>MenuAbout</key>
+			<string>&quot;This Application&quot;</string>
+			<key>MenuActions</key>
+			<string>&quot;Quick Actions&quot;</string>
+			<key>MenuChangePassword</key>
+			<string>&quot;Change network password&quot;</string>
+			<key>MenuGetHelp</key>
+			<string>&quot;File ticket&quot;</string>
+			<key>MenuGetSoftware</key>
+			<string>&quot;Get Apps&quot;</string>
+			<key>MenuLockScreen</key>
+			<string>&quot;Screen Lock&quot;</string>
+			<key>MenuPreferences</key>
+			<string>&quot;Prefs&quot;</string>
+			<key>MenuSignIn</key>
+			<string>&quot;Login&quot;</string>
+			<key>PayloadType</key>
+			<string>menu.nomad.NoMADPro</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.acme.NoMADPro.payload</string>
+			<key>PayloadUUID</key>
+			<string>0D604C77-85A1-5053-A8BE-D8B2FC357DD5</string>
+			<key>PayloadDisplayName</key>
+			<string>NoMAD Pro</string>
+			<key>PayloadOrganization</key>
+			<string>com.acme</string>
+		</dict>
+	</array>
+	<key>PayloadOrganization</key>
+	<string>com.acme</string>
+	<key>PayloadUUID</key>
+	<string>5EDFDFEB-10A9-5176-8527-EAA8A91167A0</string>
+	<key>PayloadDisplayName</key>
+	<string>NoMAD Pro</string>
+	<key>PayloadIdentifier</key>
+	<string>com.acme.NoMADPro</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadEnabled</key>
+	<true/>
+</dict>
+</plist>
