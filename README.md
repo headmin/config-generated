@@ -2,8 +2,8 @@
 
 A dump of generated DDM and `.mobileconfig` profiles - for exploration purposes.
 
-Explore the repo with [Pique](https://github.com/macadmins/pique)
-Process everything related to DDM and .mobileconfig with [contour](https://github.com/macadmins/contour)  
+- Explore the repo with [Pique](https://github.com/macadmins/pique)
+- Process everything related to DDM and .mobileconfig with [contour](https://github.com/macadmins/contour)  
 
 ## Structure
 
