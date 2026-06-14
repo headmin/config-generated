@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.management.properties",
+  "Identifier": "com.example.management.properties",
+  "ServerToken": "1a2b3c4d-management-properties",
+  "Payload": {
+    "MDMClientConfigurationVersion": "1.0.0",
+    "MDMProtocolVersion": "1"
+  }
+}

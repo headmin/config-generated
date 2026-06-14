@@ -1,0 +1,13 @@
+{
+  "Type": "com.apple.configuration.account.carddav",
+  "Identifier": "com.example.config.account.carddav",
+  "ServerToken": "1a2b3c4d-carddav",
+  "Payload": {
+    "AccountDescription": "Corporate Contacts",
+    "HostName": "carddav.example.com",
+    "Port": 443,
+    "PrincipalURL": "https://carddav.example.com/principals/users/%40me",
+    "UseSSL": true,
+    "Username": "user@example.com"
+  }
+}

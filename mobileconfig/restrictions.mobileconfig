@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures device restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.mobileconfig.restrictions</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>E5F6A7B8-C9D0-1234-EF01-345678901234</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAirDrop</key>
+			<false/>
+			<key>allowAppInstallation</key>
+			<false/>
+			<key>allowAppRemoval</key>
+			<false/>
+			<key>allowCamera</key>
+			<false/>
+			<key>allowDiagnosticSubmission</key>
+			<false/>
+			<key>allowExplicitContent</key>
+			<false/>
+			<key>allowInAppPurchases</key>
+			<false/>
+			<key>allowPassbookWhileLocked</key>
+			<false/>
+			<key>allowScreenShot</key>
+			<false/>
+			<key>allowSiri</key>
+			<true/>
+			<key>allowUntrustedTLSPrompt</key>
+			<false/>
+			<key>allowYouTube</key>
+			<false/>
+			<key>forceEncryptedBackup</key>
+			<true/>
+			<key>forceLimitAdTracking</key>
+			<true/>
+			<key>ratingApps</key>
+			<integer>1000</integer>
+			<key>ratingMovies</key>
+			<integer>1000</integer>
+			<key>ratingRegion</key>
+			<string>us</string>
+			<key>ratingTVShows</key>
+			<integer>1000</integer>
+			<key>safariAllowAutoFill</key>
+			<false/>
+			<key>safariAllowJavaScript</key>
+			<true/>
+			<key>safariAllowPopups</key>
+			<false/>
+			<key>safariForceFraudWarning</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Applies device restrictions for corporate-managed devices</string>
+	<key>PayloadDisplayName</key>
+	<string>Device Restrictions</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profile.restrictions</string>
+	<key>PayloadOrganization</key>
+	<string>Example Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F6A7B8C9-D0E1-2345-F012-456789012345</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

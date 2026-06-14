@@ -1,0 +1,23 @@
+{
+  "Type": "com.apple.configuration.restrictions.explicit",
+  "Identifier": "com.example.config.restrictions",
+  "ServerToken": "1a2b3c4d-restrictions",
+  "Payload": {
+    "Restrictions": {
+      "com.apple.restriction.allowCamera": false,
+      "com.apple.restriction.allowScreenShot": false,
+      "com.apple.restriction.allowAirDrop": false,
+      "com.apple.restriction.allowUSBRestrictedMode": true,
+      "com.apple.restriction.allowSiri": true,
+      "com.apple.restriction.allowiTunes": false,
+      "com.apple.restriction.allowAppInstallation": false,
+      "com.apple.restriction.allowAppRemoval": false,
+      "com.apple.restriction.allowInAppPurchases": false,
+      "com.apple.restriction.allowExplicitContent": false,
+      "com.apple.restriction.ratingRegion": "us",
+      "com.apple.restriction.ratingMovies": 1000,
+      "com.apple.restriction.ratingTV": 1000,
+      "com.apple.restriction.ratingApps": 1000
+    }
+  }
+}

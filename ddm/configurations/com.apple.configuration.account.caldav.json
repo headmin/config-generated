@@ -1,0 +1,13 @@
+{
+  "Type": "com.apple.configuration.account.caldav",
+  "Identifier": "com.example.config.account.caldav",
+  "ServerToken": "1a2b3c4d-caldav",
+  "Payload": {
+    "AccountDescription": "Corporate Calendar",
+    "HostName": "caldav.example.com",
+    "Port": 443,
+    "PrincipalURL": "https://caldav.example.com/principals/users/%40me",
+    "UseSSL": true,
+    "Username": "user@example.com"
+  }
+}

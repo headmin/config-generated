@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.configuration.security.certificate",
+  "Identifier": "com.example.config.certificate.root",
+  "ServerToken": "1a2b3c4d-certificate",
+  "Payload": {
+    "Data": "MIIDXTCCAkWgAwIBAgIJAKlIXEiRFMGkMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX\naWRnaXRzIFB0eSBMdGQwHhcNMjQwMTAxMDAwMDAwWhcNMjUwMTAxMDAwMDAwWjBF\nMQswCQYDVQQGEwJVUzETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50\nZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\nCgKCAQEA2a2rwplBQLF29amygykEMmYz0+Kcj3bKBp29Os3sHNDGKFkqpRFMRGmB\n...",
+    "PayloadCertificateFileName": "ExampleRootCA.crt",
+    "AutoJoinNetworks": false
+  }
+}

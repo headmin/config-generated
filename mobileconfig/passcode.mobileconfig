@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures passcode requirements</string>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.mobileconfig.passcode</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>C3D4E5F6-A7B8-9012-CDEF-123456789012</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowSimple</key>
+			<false/>
+			<key>forcePIN</key>
+			<true/>
+			<key>maxFailedAttempts</key>
+			<integer>6</integer>
+			<key>maxInactivity</key>
+			<integer>5</integer>
+			<key>maxPINAgeInDays</key>
+			<integer>90</integer>
+			<key>minComplexChars</key>
+			<integer>1</integer>
+			<key>minLength</key>
+			<integer>8</integer>
+			<key>minutesUntilFailedLoginReset</key>
+			<integer>0</integer>
+			<key>pinHistory</key>
+			<integer>5</integer>
+			<key>requireAlphanumeric</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enforces a strong passcode policy on managed devices</string>
+	<key>PayloadDisplayName</key>
+	<string>Passcode Policy</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profile.passcode</string>
+	<key>PayloadOrganization</key>
+	<string>Example Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D4E5F6A7-B8C9-0123-DEF0-234567890123</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

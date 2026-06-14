@@ -1,0 +1,13 @@
+{
+  "Type": "com.apple.activation.simple",
+  "Identifier": "com.example.activation.macos-only",
+  "ServerToken": "1a2b3c4d-activation-macos",
+  "Payload": {
+    "Predicate": "device.model.family == 'Mac'",
+    "StandardConfigurations": [
+      "com.example.config.screensaver",
+      "com.example.config.diskmanagement",
+      "com.example.config.services.files"
+    ]
+  }
+}

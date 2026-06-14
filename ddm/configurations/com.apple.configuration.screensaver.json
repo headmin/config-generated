@@ -1,0 +1,12 @@
+{
+  "Type": "com.apple.configuration.screensaver",
+  "Identifier": "com.example.config.screensaver",
+  "ServerToken": "1a2b3c4d-screensaver",
+  "Payload": {
+    "LoginWindowIdleTime": 300,
+    "UserIdleTime": 600,
+    "ModuleName": "com.apple.screensaver.FloatingMessage",
+    "ModulePath": "/System/Library/Screen Savers/FloatingMessage.saver",
+    "ShowWithClock": false
+  }
+}

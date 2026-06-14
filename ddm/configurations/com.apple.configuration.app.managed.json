@@ -1,0 +1,16 @@
+{
+  "Type": "com.apple.configuration.app.managed",
+  "Identifier": "com.example.config.app.managed",
+  "ServerToken": "1a2b3c4d-app-managed",
+  "Payload": {
+    "AppStoreID": "835599320",
+    "Options": {
+      "RemoveOnUnenroll": true
+    },
+    "Attributes": {
+      "PortNumbers": [8443],
+      "AssociatedDomains": ["webcredentials:example.com"],
+      "AssociatedDomainsEnableDirectDownloads": false
+    }
+  }
+}

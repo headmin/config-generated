@@ -1,0 +1,11 @@
+{
+  "Type": "com.apple.configuration.softwareupdate.enforcement.specific",
+  "Identifier": "com.example.config.softwareupdate",
+  "ServerToken": "1a2b3c4d-softwareupdate",
+  "Payload": {
+    "TargetOSVersion": "14.5",
+    "TargetBuildVersion": "23F79",
+    "TargetLocalDateTime": "2024-09-30T23:59:59",
+    "DetailsURL": "https://support.apple.com/en-us/111900"
+  }
+}

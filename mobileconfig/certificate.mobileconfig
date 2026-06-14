@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Certificate</key>
+			<data>
+			MIIDXTCCAkWgAwIBAgIJAKlIXEiRFMGkMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV
+			BAYTAlVTMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX
+			aWRnaXRzIFB0eSBMdGQwHhcNMjQwMTAxMDAwMDAwWhcNMjUwMTAxMDAwMDAwWjBF
+			MQswCQYDVQQGEwJVUzETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50
+			ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+			CgKCAQEA2a2rwplBQLzHPZe5TNJPFZJ5V52m7tApFhFQBBgqmAMnWCEKNFZKMYw=
+			</data>
+			<key>PayloadCertificateFileName</key>
+			<string>ExampleRootCA.crt</string>
+			<key>PayloadDescription</key>
+			<string>Adds a PKCS#1-formatted certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>Example Root CA</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.mobileconfig.certificate.root</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>C9D0E1F2-A3B4-5678-2345-789012345678</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Installs the example root certificate authority</string>
+	<key>PayloadDisplayName</key>
+	<string>Example Root CA Certificate</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profile.certificate</string>
+	<key>PayloadOrganization</key>
+	<string>Example Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D0E1F2A3-B4C5-6789-3456-890123456789</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

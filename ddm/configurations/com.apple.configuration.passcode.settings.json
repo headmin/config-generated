@@ -1,0 +1,15 @@
+{
+  "Type": "com.apple.configuration.passcode.settings",
+  "Identifier": "com.example.config.passcode",
+  "ServerToken": "1a2b3c4d-passcode",
+  "Payload": {
+    "RequirePasscode": true,
+    "MaximumFailedAttempts": 6,
+    "MaxInactivityLock": 300,
+    "MinimumLength": 6,
+    "RequireComplexPasscode": true,
+    "MaxPasscodeAge": 90,
+    "PasscodeHistory": 5,
+    "MaxGracePeriod": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Type": "com.apple.management.organization",
+  "Identifier": "com.example.management.organization",
+  "ServerToken": "1a2b3c4d-management-org",
+  "Payload": {
+    "Name": "Example Organization",
+    "SupportPhoneNumber": "+1-800-555-0100",
+    "SupportEmailAddress": "support@example.com",
+    "SupportURL": "https://support.example.com"
+  }
+}

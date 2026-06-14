@@ -1,0 +1,20 @@
+{
+  "Type": "com.apple.configuration.account.exchange",
+  "Identifier": "com.example.config.account.exchange",
+  "ServerToken": "1a2b3c4d-exchange",
+  "Payload": {
+    "AccountDescription": "Corporate Exchange",
+    "EmailAddress": "user@example.com",
+    "HostName": "mail.example.com",
+    "Port": 443,
+    "UseSSL": true,
+    "Username": "user@example.com",
+    "OAuth": false,
+    "SMIMEEnabled": false,
+    "CommunicationServiceRules": {
+      "DefaultServiceHandlers": {
+        "AudioCall": "com.apple.mobilephone"
+      }
+    }
+  }
+}

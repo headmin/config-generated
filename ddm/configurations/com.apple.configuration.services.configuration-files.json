@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.services.configuration-files",
+  "Identifier": "com.example.config.services.files",
+  "ServerToken": "1a2b3c4d-services-files",
+  "Payload": {
+    "ServiceType": "com.apple.sudoers",
+    "DataAssetReference": "com.example.asset.sudoers"
+  }
+}

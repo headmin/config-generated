@@ -1,0 +1,13 @@
+{
+  "Type": "com.apple.activation.simple",
+  "Identifier": "com.example.activation.all-devices",
+  "ServerToken": "1a2b3c4d-activation-all",
+  "Payload": {
+    "StandardConfigurations": [
+      "com.example.config.passcode",
+      "com.example.config.restrictions",
+      "com.example.config.softwareupdate",
+      "com.example.config.certificate.root"
+    ]
+  }
+}

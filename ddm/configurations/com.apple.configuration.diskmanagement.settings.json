@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.diskmanagement.settings",
+  "Identifier": "com.example.config.diskmanagement",
+  "ServerToken": "1a2b3c4d-diskmanagement",
+  "Payload": {
+    "ExternalStorage": "ReadOnly",
+    "NetworkStorage": "ReadOnly"
+  }
+}
