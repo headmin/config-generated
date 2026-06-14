@@ -1,0 +1,41 @@
+{
+  "Type": "com.apple.configuration.network.vpn.ipsec",
+  "Identifier": "com.acme.ipsec",
+  "Payload": {
+    "OnDemand": {
+      "DisableUserOverride": false,
+      "Rules": []
+    },
+    "Proxies": {
+      "AutoConfigEnable": false,
+      "AutoConfigURLString": "",
+      "AutoDiscoveryEnable": true
+    },
+    "VisibleName": "",
+    "DNS": {
+      "DomainName": "",
+      "Protocol": "",
+      "SearchDomains": [],
+      "ServerAddresses": [],
+      "ServerName": "",
+      "ServerURL": "",
+      "SupplementalMatchDomains": [],
+      "SupplementalMatchDomainsNoSearch": false
+    },
+    "Idle": {
+      "Disconnect": false,
+      "Timer": 0
+    },
+    "HostName": "",
+    "Authentication": {
+      "CredentialsAssetReference": "",
+      "IdentityAssetReference": "",
+      "LocalIdentifier": "",
+      "LocalIdentifierType": "\"KeyID\"",
+      "Method": "",
+      "PromptForVPNPIN": false,
+      "XAuth": {}
+    },
+    "OverridePrimary": false
+  }
+}

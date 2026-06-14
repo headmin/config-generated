@@ -1,0 +1,7 @@
+{
+  "Type": "com.apple.configuration.safari.bookmarks",
+  "Identifier": "com.acme.bookmarks",
+  "Payload": {
+    "ManagedBookmarks": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Type": "com.apple.configuration.migration-assistant.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "ExcludedAccounts": [],
+    "ShouldDoManagedMigration": false,
+    "ExcludedPaths": [],
+    "RequiredPaths": [],
+    "ShouldMigrateSecurityPrivacySettings": false
+  }
+}

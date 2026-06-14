@@ -1,0 +1,7 @@
+{
+  "Type": "com.apple.configuration.management.status-subscriptions",
+  "Identifier": "com.acme.status-subscriptions",
+  "Payload": {
+    "StatusItems": []
+  }
+}

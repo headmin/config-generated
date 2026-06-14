@@ -1,0 +1,13 @@
+{
+  "Type": "com.apple.configuration.network.dns-proxy",
+  "Identifier": "com.acme.dns-proxy",
+  "Payload": {
+    "AppBundleIdentifier": "",
+    "ProviderComposedIdentifier": "",
+    "ProviderConfiguration": {
+      "ANY": ""
+    },
+    "VisibleName": "",
+    "DNSProxyUUID": ""
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.screensharing.connection.group",
+  "Identifier": "com.acme.group",
+  "Payload": {
+    "GroupName": "",
+    "Members": [],
+    "ConnectionGroupUUID": ""
+  }
+}

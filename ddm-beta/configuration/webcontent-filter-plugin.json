@@ -1,0 +1,25 @@
+{
+  "Type": "com.apple.configuration.webcontent-filter.plugin",
+  "Identifier": "com.acme.plugin",
+  "Payload": {
+    "Authentication": {
+      "CredentialsAssetReference": "",
+      "IdentityAssetReference": ""
+    },
+    "VisibleName": "",
+    "Filter": {
+      "Browsers": {},
+      "Grade": "\"firewall\"",
+      "Packets": {},
+      "Sockets": {},
+      "URLs": {}
+    },
+    "ContentFilterUUID": "",
+    "ServerAddress": "",
+    "Organization": "",
+    "PluginBundleID": "",
+    "VendorConfig": {
+      "ANY": ""
+    }
+  }
+}

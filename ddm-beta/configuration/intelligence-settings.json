@@ -1,0 +1,20 @@
+{
+  "Type": "com.apple.configuration.intelligence.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "AllowGenmoji": true,
+    "AllowAppleIntelligenceReport": true,
+    "AllowWritingTools": true,
+    "AllowImagePlayground": true,
+    "AllowImageWand": true,
+    "AllowPersonalizedHandwritingResults": true,
+    "Apps": {
+      "Mail": {},
+      "Notes": {},
+      "Safari": {}
+    },
+    "ForceOnDeviceOnlyTranslation": false,
+    "ForceOnDeviceOnlyDictation": false,
+    "AllowVisualIntelligenceSummary": true
+  }
+}

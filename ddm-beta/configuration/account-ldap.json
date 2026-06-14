@@ -1,0 +1,11 @@
+{
+  "Type": "com.apple.configuration.account.ldap",
+  "Identifier": "com.acme.ldap",
+  "Payload": {
+    "HostName": "",
+    "AuthenticationCredentialsAssetReference": "",
+    "SearchSettings": [],
+    "VisibleName": "",
+    "Port": 0
+  }
+}

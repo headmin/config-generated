@@ -1,0 +1,11 @@
+{
+  "Type": "com.apple.configuration.account.caldav",
+  "Identifier": "com.acme.caldav",
+  "Payload": {
+    "Port": 0,
+    "Path": "",
+    "AuthenticationCredentialsAssetReference": "",
+    "VisibleName": "",
+    "HostName": ""
+  }
+}

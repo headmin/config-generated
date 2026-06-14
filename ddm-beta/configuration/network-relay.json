@@ -1,0 +1,15 @@
+{
+  "Type": "com.apple.configuration.network.relay",
+  "Identifier": "com.acme.relay",
+  "Payload": {
+    "Relays": [],
+    "ExcludedFQDNs": [],
+    "UIToggleEnabled": true,
+    "VisibleName": "",
+    "ExcludedDomains": [],
+    "AllowDNSFailover": false,
+    "MatchFQDNs": [],
+    "MatchDomains": [],
+    "RelayUUID": ""
+  }
+}

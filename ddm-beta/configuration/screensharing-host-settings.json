@@ -1,0 +1,11 @@
+{
+  "Type": "com.apple.configuration.screensharing.host.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "PortBase": 0,
+    "PreventHighPerformanceConnections": false,
+    "PreventCopyFilesToHost": false,
+    "PreventCopyFilesFromHost": false,
+    "MaximumVirtualDisplays": 0
+  }
+}

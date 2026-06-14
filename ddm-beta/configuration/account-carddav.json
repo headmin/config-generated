@@ -1,0 +1,11 @@
+{
+  "Type": "com.apple.configuration.account.carddav",
+  "Identifier": "com.acme.carddav",
+  "Payload": {
+    "VisibleName": "",
+    "Port": 0,
+    "AuthenticationCredentialsAssetReference": "",
+    "HostName": "",
+    "Path": ""
+  }
+}

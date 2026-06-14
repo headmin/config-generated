@@ -1,0 +1,43 @@
+{
+  "Type": "com.apple.configuration.app.managed",
+  "Identifier": "com.acme.managed",
+  "Payload": {
+    "IncludeInBackup": true,
+    "LegacyAppConfigAssetReference": "",
+    "AppComposedIdentifier": "",
+    "BundleID": "",
+    "ManifestURL": "",
+    "AppStoreID": "",
+    "Attributes": {
+      "AssociatedDomains": [],
+      "AssociatedDomainsEnableDirectDownloads": false,
+      "CellularSliceUUID": "",
+      "ContentFilterUUID": "",
+      "DNSProxyUUID": "",
+      "Hideable": true,
+      "Lockable": true,
+      "RelayUUID": "",
+      "TapToPayScreenLock": false,
+      "VPNUUID": ""
+    },
+    "UpdateBehavior": {
+      "AutomaticAppUpdates": ""
+    },
+    "InstallBehavior": {
+      "AllowDownloadsOverCellular": "\"StoreSettings\"",
+      "Install": "\"Optional\"",
+      "License": {},
+      "Version": 0
+    },
+    "AppConfig": {
+      "Certificates": [],
+      "DataAssetReference": "",
+      "Identities": [],
+      "Passwords": []
+    },
+    "iOSApp": false,
+    "ExtensionConfigs": {
+      "ANY": {}
+    }
+  }
+}

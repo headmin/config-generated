@@ -1,0 +1,29 @@
+{
+  "Type": "com.apple.configuration.network.vpn.always-on",
+  "Identifier": "com.acme.always-on",
+  "Payload": {
+    "TunnelConfigurations": [],
+    "AllowedCaptiveNetworkPlugins": [],
+    "DNS": {
+      "DomainName": "",
+      "Protocol": "",
+      "SearchDomains": [],
+      "ServerAddresses": [],
+      "ServerName": "",
+      "ServerURL": "",
+      "SupplementalMatchDomains": [],
+      "SupplementalMatchDomainsNoSearch": false
+    },
+    "VisibleName": "",
+    "ApplicationExceptions": [],
+    "Proxies": {
+      "AutoConfigEnable": false,
+      "AutoConfigURLString": "",
+      "AutoDiscoveryEnable": true
+    },
+    "AllowAllCaptiveNetworkPlugins": false,
+    "UIToggleEnabled": false,
+    "AllowCaptiveWebSheet": false,
+    "ServiceExceptions": []
+  }
+}

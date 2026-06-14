@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.configuration.audio-accessory.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "TemporaryPairing": {
+      "Configuration": {},
+      "Disabled": false
+    }
+  }
+}

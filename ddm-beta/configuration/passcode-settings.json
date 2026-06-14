@@ -1,0 +1,22 @@
+{
+  "Type": "com.apple.configuration.passcode.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "PasscodeReuseLimit": 0,
+    "ChangeAtNextAuth": false,
+    "CustomRegex": {
+      "Description": {},
+      "Regex": ""
+    },
+    "RequirePasscode": false,
+    "MaximumPasscodeAgeInDays": 0,
+    "MaximumFailedAttempts": 11,
+    "MaximumGracePeriodInMinutes": 0,
+    "RequireAlphanumericPasscode": false,
+    "MinimumComplexCharacters": 0,
+    "MinimumLength": 0,
+    "FailedAttemptsResetInMinutes": 0,
+    "MaximumInactivityInMinutes": 0,
+    "RequireComplexPasscode": false
+  }
+}

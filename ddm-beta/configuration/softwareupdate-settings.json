@@ -1,0 +1,29 @@
+{
+  "Type": "com.apple.configuration.softwareupdate.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "Notifications": true,
+    "AllowStandardUserOSUpdates": true,
+    "Beta": {
+      "OfferPrograms": [],
+      "ProgramEnrollment": "\"Allowed\"",
+      "RequireProgram": {}
+    },
+    "AutomaticActions": {
+      "Download": "\"Allowed\"",
+      "InstallOSUpdates": "\"Allowed\"",
+      "InstallSecurityUpdate": "\"Allowed\""
+    },
+    "RapidSecurityResponse": {
+      "Enable": true,
+      "EnableRollback": true
+    },
+    "Deferrals": {
+      "CombinedPeriodInDays": 0,
+      "MajorPeriodInDays": 0,
+      "MinorPeriodInDays": 0,
+      "SystemPeriodInDays": 0
+    },
+    "RecommendedCadence": ""
+  }
+}

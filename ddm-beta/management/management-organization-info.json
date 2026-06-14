@@ -1,0 +1,12 @@
+{
+  "Type": "com.apple.management.organization-info",
+  "Identifier": "com.acme.organization-info",
+  "Payload": {
+    "Email": "",
+    "URL": "",
+    "Name": "",
+    "Proof": {
+      "IdentityToken": ""
+    }
+  }
+}

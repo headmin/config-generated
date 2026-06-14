@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.configuration.siri.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "AllowUserGeneratedContent": true,
+    "ForceProfanityFilter": false,
+    "Enabled": true,
+    "AllowWhileLocked": true
+  }
+}

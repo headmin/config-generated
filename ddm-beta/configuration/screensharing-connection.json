@@ -1,0 +1,14 @@
+{
+  "Type": "com.apple.configuration.screensharing.connection",
+  "Identifier": "com.acme.connection",
+  "Payload": {
+    "HostName": "",
+    "ConnectionUUID": "",
+    "DisplayConfiguration": {
+      "DisplayType": ""
+    },
+    "AuthenticationCredentialsAssetReference": "",
+    "DisplayName": "",
+    "Port": 0
+  }
+}

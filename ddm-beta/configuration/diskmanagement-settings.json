@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.configuration.diskmanagement.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "Restrictions": {
+      "ExternalStorage": "",
+      "NetworkStorage": ""
+    }
+  }
+}

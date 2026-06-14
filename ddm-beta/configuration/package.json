@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.configuration.package",
+  "Identifier": "com.acme.package",
+  "Payload": {
+    "InstallBehavior": {
+      "Install": "\"Optional\""
+    },
+    "ManifestURL": ""
+  }
+}

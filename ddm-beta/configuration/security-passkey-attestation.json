@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.security.passkey.attestation",
+  "Identifier": "com.acme.attestation",
+  "Payload": {
+    "AttestationIdentityKeyIsExtractable": true,
+    "AttestationIdentityAssetReference": "",
+    "RelyingParties": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.security.identity",
+  "Identifier": "com.acme.identity",
+  "Payload": {
+    "AllowAllAppsAccess": false,
+    "CredentialAssetReference": "",
+    "KeyIsExtractable": true
+  }
+}

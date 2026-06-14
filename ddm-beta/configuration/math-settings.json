@@ -1,0 +1,17 @@
+{
+  "Type": "com.apple.configuration.math.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "SystemBehavior": {
+      "KeyboardSuggestions": false,
+      "MathNotes": false
+    },
+    "Calculator": {
+      "BasicMode": {},
+      "InputModes": {},
+      "MathNotesMode": {},
+      "ProgrammerMode": {},
+      "ScientificMode": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Type": "com.apple.configuration.account.mail",
+  "Identifier": "com.acme.mail",
+  "Payload": {
+    "VisibleName": "",
+    "IncomingServer": {
+      "AuthenticationCredentialsAssetReference": "",
+      "AuthenticationMethod": "",
+      "HostName": "",
+      "IMAPPathPrefix": "",
+      "Port": 0,
+      "ServerType": ""
+    },
+    "UserIdentityAssetReference": "",
+    "OutgoingServer": {},
+    "SMIME": {
+      "Encryption": {},
+      "Signing": {}
+    }
+  }
+}

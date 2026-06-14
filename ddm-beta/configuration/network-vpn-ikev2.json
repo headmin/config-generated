@@ -1,0 +1,77 @@
+{
+  "Type": "com.apple.configuration.network.vpn.ikev2",
+  "Identifier": "com.acme.ikev2",
+  "Payload": {
+    "NATKeepAliveInterval": 20,
+    "Authentication": {
+      "CredentialsAssetReference": "",
+      "ExtendedAuth": {},
+      "IdentityAssetReference": "",
+      "IdentityCertificateType": "\"RSA\"",
+      "Method": ""
+    },
+    "EnablePFS": false,
+    "DisableMOBIKE": false,
+    "EnableCertificateRevocationCheck": false,
+    "Proxies": {
+      "AutoConfigEnable": false,
+      "AutoConfigURLString": "",
+      "AutoDiscoveryEnable": true
+    },
+    "VisibleName": "",
+    "ChildSecurityAssociationParameters": {},
+    "IKESecurityAssociationParameters": {
+      "DiffieHellmanGroup": 14,
+      "EncryptionAlgorithm": "\"AES-256\"",
+      "IntegrityAlgorithm": "\"SHA2-256\"",
+      "LifeTimeInMinutes": 1440,
+      "PostQuantumKeyExchangeMethods": []
+    },
+    "DNS": {
+      "DomainName": "",
+      "Protocol": "",
+      "SearchDomains": [],
+      "ServerAddresses": [],
+      "ServerName": "",
+      "ServerURL": "",
+      "SupplementalMatchDomains": [],
+      "SupplementalMatchDomainsNoSearch": false
+    },
+    "EnforceStrictAlgorithmSelection": false,
+    "HostName": "",
+    "PostQuantumKeyExchange": {
+      "AllowFallback": false,
+      "PPK": "",
+      "PPKIdentifier": "",
+      "PPKMandatory": true
+    },
+    "OnDemand": {
+      "DisableUserOverride": false,
+      "Rules": []
+    },
+    "RemoteIdentifier": "",
+    "DisableRedirect": false,
+    "EnableFallback": false,
+    "LocalIdentifier": "",
+    "EnableNATKeepAliveOffload": true,
+    "Provider": {
+      "ComposedIdentifier": "",
+      "Type": "\"packet-tunnel\""
+    },
+    "MTU": 1280,
+    "Idle": {
+      "DeadPeerDetectionRate": "\"Medium\"",
+      "Disconnect": false,
+      "Timer": 0
+    },
+    "NetworkRouting": {
+      "EnforceRoutes": false,
+      "ExcludeAPNs": true,
+      "ExcludeCellularServices": true,
+      "ExcludeDeviceCommunication": true,
+      "ExcludeLocalNetworks": false,
+      "IncludeAllNetworks": false
+    },
+    "UseConfigurationAttributeInternalIPSubnet": false
+  }
+}

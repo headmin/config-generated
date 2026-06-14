@@ -1,0 +1,18 @@
+{
+  "Type": "com.apple.configuration.safari.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "NewTabStartPage": {
+      "ExtensionIdentifier": "",
+      "HomepageURL": "",
+      "PageType": ""
+    },
+    "AllowHistoryClearing": true,
+    "AllowPopups": true,
+    "AllowDisablingFraudWarning": true,
+    "AllowPrivateBrowsing": true,
+    "AcceptCookies": "\"Always\"",
+    "AllowSummary": true,
+    "AllowJavaScript": true
+  }
+}

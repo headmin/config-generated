@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.configuration.softwareupdate.enforcement.specific",
+  "Identifier": "com.acme.specific",
+  "Payload": {
+    "TargetBuildVersion": "",
+    "DetailsURL": "",
+    "TargetLocalDateTime": "",
+    "TargetOSVersion": ""
+  }
+}

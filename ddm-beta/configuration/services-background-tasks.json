@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.configuration.services.background-tasks",
+  "Identifier": "com.acme.background-tasks",
+  "Payload": {
+    "ExecutableAssetReference": "",
+    "LaunchdConfigurations": [],
+    "TaskType": "",
+    "TaskDescription": ""
+  }
+}

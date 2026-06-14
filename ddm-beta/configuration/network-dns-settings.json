@@ -1,0 +1,18 @@
+{
+  "Type": "com.apple.configuration.network.dns-settings",
+  "Identifier": "com.acme.dns-settings",
+  "Payload": {
+    "ProhibitDisablement": false,
+    "OnDemandRules": [],
+    "DNSSettings": {
+      "AllowFailover": false,
+      "DNSProtocol": "",
+      "IdentityAssetReference": "",
+      "ServerAddresses": [],
+      "ServerName": "",
+      "ServerURL": "",
+      "SupplementalMatchDomains": []
+    },
+    "VisibleName": ""
+  }
+}

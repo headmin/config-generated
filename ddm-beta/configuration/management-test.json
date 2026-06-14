@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.management.test",
+  "Identifier": "com.acme.test",
+  "Payload": {
+    "ReturnStatus": "\"Installed\"",
+    "Echo": "",
+    "EchoDataAssetReference": ""
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Type": "com.apple.configuration.app.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "Allowed": {
+      "AllowedApps": [],
+      "AllowedBinaries": [],
+      "AlwaysAllowManagedApps": false,
+      "DeniedApps": [],
+      "DeniedBinaries": []
+    },
+    "Privacy": {
+      "PermissionDefaults": {}
+    }
+  }
+}

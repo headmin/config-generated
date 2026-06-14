@@ -1,0 +1,36 @@
+{
+  "Type": "com.apple.configuration.account.exchange",
+  "Identifier": "com.acme.exchange",
+  "Payload": {
+    "External Path": "",
+    "OAuth": {
+      "Enabled": false,
+      "SignInURL": "",
+      "TokenRequestURL": ""
+    },
+    "AuthenticationCredentialsAssetReference": "",
+    "ExternalHostName": "",
+    "VisibleName": "",
+    "EnabledProtocolTypes": [],
+    "SMIME": {
+      "Encryption": {},
+      "Signing": {}
+    },
+    "MailServiceActive": true,
+    "LockRemindersService": false,
+    "Port": 0,
+    "LockNotesService": false,
+    "ExternalPort": 0,
+    "ContactsServiceActive": true,
+    "AuthenticationIdentityAssetReference": "",
+    "UserIdentityAssetReference": "",
+    "CalendarServiceActive": true,
+    "NotesServiceActive": true,
+    "LockMailService": false,
+    "RemindersServiceActive": true,
+    "LockCalendarService": false,
+    "HostName": "",
+    "LockContactsService": false,
+    "Path": ""
+  }
+}

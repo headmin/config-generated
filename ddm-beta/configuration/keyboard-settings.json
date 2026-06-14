@@ -1,0 +1,14 @@
+{
+  "Type": "com.apple.configuration.keyboard.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "AllowTextReplacement": true,
+    "AllowMathKeyboardSuggestions": true,
+    "AllowSpellCheck": true,
+    "AllowPredictiveText": true,
+    "AllowDictation": true,
+    "AllowAutoCorrection": true,
+    "AllowSlideToType": true,
+    "AllowDefinitionLookup": true
+  }
+}

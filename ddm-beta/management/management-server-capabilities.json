@@ -1,0 +1,10 @@
+{
+  "Type": "com.apple.management.server-capabilities",
+  "Identifier": "com.acme.server-capabilities",
+  "Payload": {
+    "SupportedFeatures": {
+      "ANY": ""
+    },
+    "Version": ""
+  }
+}

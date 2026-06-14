@@ -1,0 +1,8 @@
+{
+  "Type": "com.apple.asset.useridentity",
+  "Identifier": "com.acme.useridentity",
+  "Payload": {
+    "FullName": "",
+    "EmailAddress": ""
+  }
+}

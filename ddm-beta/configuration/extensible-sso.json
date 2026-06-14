@@ -1,0 +1,29 @@
+{
+  "Type": "com.apple.configuration.extensible-sso",
+  "Identifier": "com.acme.extensible-sso",
+  "Payload": {
+    "Realm": "",
+    "Type": "",
+    "DeniedBundleIdentifiers": [],
+    "PlatformSSO": {
+      "AccessKey": {},
+      "Account": {},
+      "AllowDeviceIdentifiersInAttestation": false,
+      "AuthenticationMethod": "",
+      "Authorization": {},
+      "LoginFrequency": 64800,
+      "Policies": {},
+      "RegistrationToken": "",
+      "UseSharedDeviceKeys": false,
+      "UserCreation": {},
+      "WebAuthentication": {}
+    },
+    "ScreenLockedBehavior": "\"Cancel\"",
+    "Hosts": [],
+    "URLs": [],
+    "ExtensionComposedIdentifier": "",
+    "ExtensionData": {
+      "ANY": ""
+    }
+  }
+}

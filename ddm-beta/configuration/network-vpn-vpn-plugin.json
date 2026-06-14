@@ -1,0 +1,56 @@
+{
+  "Type": "com.apple.configuration.network.vpn.vpn-plugin",
+  "Identifier": "com.acme.vpn-plugin",
+  "Payload": {
+    "DNS": {
+      "DomainName": "",
+      "Protocol": "",
+      "SearchDomains": [],
+      "ServerAddresses": [],
+      "ServerName": "",
+      "ServerURL": "",
+      "SupplementalMatchDomains": [],
+      "SupplementalMatchDomainsNoSearch": false
+    },
+    "Proxies": {
+      "AutoConfigEnable": false,
+      "AutoConfigURLString": "",
+      "AutoDiscoveryEnable": true
+    },
+    "Idle": {
+      "Disconnect": false,
+      "Timer": 0
+    },
+    "VisibleName": "",
+    "VendorConfig": {
+      "Group": "",
+      "LoginGroupOrDomain": "",
+      "Realm": "",
+      "Role": ""
+    },
+    "NetworkRouting": {
+      "EnforceRoutes": false,
+      "ExcludeAPNs": true,
+      "ExcludeCellularServices": true,
+      "ExcludeDeviceCommunication": true,
+      "ExcludeLocalNetworks": false,
+      "IncludeAllNetworks": false
+    },
+    "SubType": "",
+    "HostName": "",
+    "Authentication": {
+      "CredentialsAssetReference": "",
+      "IdentityAssetReference": "",
+      "Method": ""
+    },
+    "Provider": {
+      "ComposedIdentifier": "",
+      "Type": "\"packet-tunnel\""
+    },
+    "OnDemand": {
+      "DisableUserOverride": false,
+      "Enabled": false,
+      "Rules": []
+    }
+  }
+}

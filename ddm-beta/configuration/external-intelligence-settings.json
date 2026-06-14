@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.external-intelligence.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "Enabled": true,
+    "AllowSignIn": true,
+    "AllowedWorkspaceIDs": []
+  }
+}

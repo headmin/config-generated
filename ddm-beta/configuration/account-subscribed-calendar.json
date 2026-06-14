@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.account.subscribed-calendar",
+  "Identifier": "com.acme.subscribed-calendar",
+  "Payload": {
+    "VisibleName": "",
+    "CalendarURL": "",
+    "AuthenticationCredentialsAssetReference": ""
+  }
+}

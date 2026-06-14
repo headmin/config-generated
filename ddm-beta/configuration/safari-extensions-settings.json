@@ -1,0 +1,9 @@
+{
+  "Type": "com.apple.configuration.safari.extensions.settings",
+  "Identifier": "com.acme.settings",
+  "Payload": {
+    "ManagedExtensions": {
+      "ANY": {}
+    }
+  }
+}
